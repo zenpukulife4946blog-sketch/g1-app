@@ -14,6 +14,7 @@ function App() {
   const [selectedYear, setSelectedYear] = useState("");
   const [selectedCourse, setSelectedCourse] = useState("");
   const [selectedRaceKey, setSelectedRaceKey] = useState("");
+  const [selectedRaceLabel, setSelectedRaceLabel] = useState("");
   const [currentRace, setCurrentRace] = useState(null);
   const [selectedHorse, setSelectedHorse] = useState(null);
 
@@ -21,7 +22,7 @@ function App() {
 
   const years = useMemo(() => {
     return [...new Set(raceCatalog.map((race) => race.year))];
-  }, [raceCatalog]);
+  }, []);
 
   const courses = useMemo(() => {
     if (!selectedYear) return [];
@@ -32,14 +33,14 @@ function App() {
           .map((race) => race.course)
       ),
     ];
-  }, [selectedYear, raceCatalog]);
+  }, [selectedYear]);
 
   const raceOptions = useMemo(() => {
     if (!selectedYear || !selectedCourse) return [];
     return raceCatalog.filter(
       (race) => race.year === selectedYear && race.course === selectedCourse
     );
-  }, [selectedYear, selectedCourse, raceCatalog]);
+  }, [selectedYear, selectedCourse]);
 
   const getStyleIcon = (style) => {
     switch (style) {
@@ -89,6 +90,19 @@ function App() {
     if (horse.name === tanana) return "▲";
     if (horse.name === renka) return "△";
     if (horse.name === ana) return "☆";
+
+    return "";
+  };
+
+  const getFrameColorClass = (number) => {
+    if (number === 1 || number === 2) return "frame-white";
+    if (number === 3 || number === 4) return "frame-black";
+    if (number === 5 || number === 6) return "frame-red";
+    if (number === 7 || number === 8) return "frame-blue";
+    if (number === 9 || number === 10) return "frame-yellow";
+    if (number === 11 || number === 12) return "frame-green";
+    if (number === 13 || number === 14 || number === 15) return "frame-orange";
+    if (number === 16 || number === 17 || number === 18) return "frame-pink";
     return "";
   };
 
@@ -96,6 +110,7 @@ function App() {
     setSelectedYear(e.target.value);
     setSelectedCourse("");
     setSelectedRaceKey("");
+    setSelectedRaceLabel("");
     setCurrentRace(null);
     setSelectedHorse(null);
   };
@@ -103,12 +118,17 @@ function App() {
   const handleCourseChange = (e) => {
     setSelectedCourse(e.target.value);
     setSelectedRaceKey("");
+    setSelectedRaceLabel("");
     setCurrentRace(null);
     setSelectedHorse(null);
   };
 
   const handleRaceChange = (e) => {
-    setSelectedRaceKey(e.target.value);
+    const newKey = e.target.value;
+    const selectedOption = raceOptions.find((race) => race.key === newKey);
+
+    setSelectedRaceKey(newKey);
+    setSelectedRaceLabel(selectedOption?.label || "");
     setCurrentRace(null);
     setSelectedHorse(null);
   };
@@ -124,6 +144,7 @@ function App() {
     if (!foundRace) return;
 
     setCurrentRace(foundRace.data);
+    setSelectedRaceLabel(foundRace.label);
     setSelectedHorse(null);
   };
 
@@ -210,22 +231,43 @@ function App() {
               </button>
             </div>
           </div>
+
+          <div className="selected-values">
+            <div className="selected-chip">
+              <span className="selected-chip-label">年</span>
+              <span className="selected-chip-value">
+                {selectedYear ? `${selectedYear}年` : "未選択"}
+              </span>
+            </div>
+            <div className="selected-chip">
+              <span className="selected-chip-label">競馬場</span>
+              <span className="selected-chip-value">
+                {selectedCourse || "未選択"}
+              </span>
+            </div>
+            <div className="selected-chip">
+              <span className="selected-chip-label">レース名</span>
+              <span className="selected-chip-value">
+                {selectedRaceLabel || "未選択"}
+              </span>
+            </div>
+          </div>
         </section>
 
         {currentRace && (
           <>
             <section className="panel">
-              <h2 className="section-title strong-title">レース概要</h2>
+              <h2 className="section-title">レース概要</h2>
 
               <div className="race-grid">
                 <div className="grid-label">年</div>
                 <div className="grid-value">{selectedYear}年</div>
 
                 <div className="grid-label">競馬場</div>
-                <div className="grid-value">{currentRace.course}競馬場</div>
+                <div className="grid-value">{selectedCourse}競馬場</div>
 
                 <div className="grid-label">レース名</div>
-                <div className="grid-value">{currentRace.raceName}</div>
+                <div className="grid-value">{selectedRaceLabel}</div>
 
                 <div className="grid-label">条件</div>
                 <div className="grid-value">
@@ -254,7 +296,7 @@ function App() {
 
             {currentRace.marks && (
               <section className="panel">
-                <h2 className="section-title strong-title">予想印</h2>
+                <h2 className="section-title">予想印</h2>
 
                 <div className="marks-box">
                   <div className="mark-item mark-red">
@@ -283,7 +325,7 @@ function App() {
 
             {currentRace.betting && (
               <section className="panel">
-                <h2 className="section-title strong-title">買い目</h2>
+                <h2 className="section-title">買い目</h2>
 
                 <div className="betting-box">
                   <div>券種: {currentRace.betting.type}</div>
@@ -304,14 +346,14 @@ function App() {
             )}
 
             <section className="panel">
-              <h2 className="section-title strong-title">出馬表</h2>
+              <h2 className="section-title">出馬表</h2>
 
               <div className="horse-card-list">
                 {(currentRace.horses || []).map((horse) => (
                   <button
                     key={horse.number}
                     type="button"
-                    className="horse-card"
+                    className={`horse-card ${getFrameColorClass(horse.number)}`}
                     onClick={() => handleHorseClick(horse)}
                   >
                     <div className="horse-row-top">
@@ -329,7 +371,7 @@ function App() {
             </section>
 
             <section className="panel" ref={detailRef}>
-              <h2 className="section-title strong-title">馬詳細</h2>
+              <h2 className="section-title">馬詳細</h2>
 
               {selectedHorse ? (
                 <div className="horse-detail">

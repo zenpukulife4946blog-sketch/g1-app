@@ -54,13 +54,9 @@ body {
   margin: 0 0 16px;
   font-size: 24px;
   font-weight: 800;
-  color: #1f2a44;
+  color: #16233d;
   border-left: 5px solid #2563eb;
   padding-left: 10px;
-}
-
-.strong-title {
-  color: #16233d;
 }
 
 .filters {
@@ -115,6 +111,35 @@ body {
   background: #9ca3af;
   cursor: not-allowed;
   box-shadow: none;
+}
+
+.selected-values {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.selected-chip {
+  background: #f8fbff;
+  border: 1px solid #dbeafe;
+  border-radius: 12px;
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.selected-chip-label {
+  font-size: 12px;
+  font-weight: 800;
+  color: #64748b;
+}
+
+.selected-chip-value {
+  font-size: 16px;
+  font-weight: 800;
+  color: #16233d;
 }
 
 .race-grid {
@@ -207,7 +232,6 @@ body {
 
 .horse-card {
   width: 100%;
-  background: #ffffff;
   border: 1px solid #d6deea;
   border-radius: 14px;
   padding: 14px 16px;
@@ -217,7 +241,6 @@ body {
 }
 
 .horse-card:hover {
-  background: #f7fbff;
   border-color: #93c5fd;
   transform: translateY(-1px);
 }
@@ -262,6 +285,38 @@ body {
   font-size: 15px;
   font-weight: 700;
   color: #475569;
+}
+
+.frame-white {
+  background: #ffffff;
+}
+
+.frame-black {
+  background: #e5e7eb;
+}
+
+.frame-red {
+  background: #fee2e2;
+}
+
+.frame-blue {
+  background: #dbeafe;
+}
+
+.frame-yellow {
+  background: #fef3c7;
+}
+
+.frame-green {
+  background: #dcfce7;
+}
+
+.frame-orange {
+  background: #fed7aa;
+}
+
+.frame-pink {
+  background: #fce7f3;
 }
 
 .horse-detail {
@@ -309,6 +364,10 @@ body {
 @media (max-width: 900px) {
   .filters {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .selected-values {
+    grid-template-columns: 1fr;
   }
 
   .race-grid {
