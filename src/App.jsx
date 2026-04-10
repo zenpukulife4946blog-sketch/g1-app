@@ -14,7 +14,6 @@ function App() {
   const [selectedYear, setSelectedYear] = useState("");
   const [selectedCourse, setSelectedCourse] = useState("");
   const [selectedRaceKey, setSelectedRaceKey] = useState("");
-  const [selectedRaceLabel, setSelectedRaceLabel] = useState("");
   const [currentRace, setCurrentRace] = useState(null);
   const [selectedHorse, setSelectedHorse] = useState(null);
 
@@ -41,6 +40,11 @@ function App() {
       (race) => race.year === selectedYear && race.course === selectedCourse
     );
   }, [selectedYear, selectedCourse]);
+
+  const selectedRaceLabel = useMemo(() => {
+    const found = raceOptions.find((race) => race.key === selectedRaceKey);
+    return found?.label || "";
+  }, [raceOptions, selectedRaceKey]);
 
   const getStyleIcon = (style) => {
     switch (style) {
@@ -106,11 +110,16 @@ function App() {
     return "";
   };
 
+  const formatPoints = (value) => {
+    if (value === null || value === undefined || value === "") return null;
+    const text = String(value).replace(/ポイント/g, "").replace(/point/gi, "").trim();
+    return `${text}点`;
+  };
+
   const handleYearChange = (e) => {
     setSelectedYear(e.target.value);
     setSelectedCourse("");
     setSelectedRaceKey("");
-    setSelectedRaceLabel("");
     setCurrentRace(null);
     setSelectedHorse(null);
   };
@@ -118,17 +127,12 @@ function App() {
   const handleCourseChange = (e) => {
     setSelectedCourse(e.target.value);
     setSelectedRaceKey("");
-    setSelectedRaceLabel("");
     setCurrentRace(null);
     setSelectedHorse(null);
   };
 
   const handleRaceChange = (e) => {
-    const newKey = e.target.value;
-    const selectedOption = raceOptions.find((race) => race.key === newKey);
-
-    setSelectedRaceKey(newKey);
-    setSelectedRaceLabel(selectedOption?.label || "");
+    setSelectedRaceKey(e.target.value);
     setCurrentRace(null);
     setSelectedHorse(null);
   };
@@ -144,7 +148,6 @@ function App() {
     if (!foundRace) return;
 
     setCurrentRace(foundRace.data);
-    setSelectedRaceLabel(foundRace.label);
     setSelectedHorse(null);
   };
 
@@ -231,27 +234,6 @@ function App() {
               </button>
             </div>
           </div>
-
-          <div className="selected-values">
-            <div className="selected-chip">
-              <span className="selected-chip-label">年</span>
-              <span className="selected-chip-value">
-                {selectedYear ? `${selectedYear}年` : "未選択"}
-              </span>
-            </div>
-            <div className="selected-chip">
-              <span className="selected-chip-label">競馬場</span>
-              <span className="selected-chip-value">
-                {selectedCourse || "未選択"}
-              </span>
-            </div>
-            <div className="selected-chip">
-              <span className="selected-chip-label">レース名</span>
-              <span className="selected-chip-value">
-                {selectedRaceLabel || "未選択"}
-              </span>
-            </div>
-          </div>
         </section>
 
         {currentRace && (
@@ -333,7 +315,7 @@ function App() {
                   <div>2着: {currentRace.betting.second?.join(", ")}</div>
                   <div>3着: {currentRace.betting.third?.join(", ")}</div>
                   {currentRace.betting.points && (
-                    <div>点数: {currentRace.betting.points}</div>
+                    <div>点数: {formatPoints(currentRace.betting.points)}</div>
                   )}
                   {currentRace.betting.unit && (
                     <div>金額: {currentRace.betting.unit}</div>
