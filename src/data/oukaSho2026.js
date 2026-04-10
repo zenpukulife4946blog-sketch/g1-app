@@ -1,0 +1,52 @@
+export const oukaSho2026 = {
+  raceName: "桜花賞",
+  year: 2026,
+  course: "阪神",
+  distance: 1600,
+  surface: "芝",
+  turn: "右",
+  courseLayout: "外回り",
+  trackCondition: "良想定",
+  pace: "ミドルペース想定",
+  courseComment:
+    "阪神芝1600m外回り。直線が長く、先行力だけでなく末脚の持続力も重要。",
+
+  marks: {
+    honmei: "◎ スターアニス",
+    taikou: "○ ドリームコア",
+    tanana: "▲ アランカール",
+    renka: "△ フェスティバルヒル",
+    ana: "☆ ギャラボーグ",
+  },
+
+  betting: {
+    type: "3連単フォーメーション",
+    first: ["14", "15"],
+    second: ["1", "5", "7", "14", "15"],
+    third: ["1", "5", "7", "10", "12", "13", "14", "15"],
+    points: "48点",
+    unit: "各100円",
+    total: "4,800円",
+  },
+
+  horses: [
+    { number: 1, name: "フェスティバルヒル", jockey: "坂井瑠星", style: "先行", odds: 29.6, mark: "△", summary: "好位で流れに乗れれば上位圏内。" },
+    { number: 2, name: "サンアントワーヌ", jockey: "荻野極", style: "先行", odds: 63.7, mark: "", summary: "前めで運んでしぶとさを生かしたい。" },
+    { number: 3, name: "ディアダイヤモンド", jockey: "戸崎圭太", style: "先行", odds: 18.9, mark: "", summary: "立ち回りひとつで粘り込み可能。" },
+    { number: 4, name: "エレガンスアスク", jockey: "岩田望来", style: "先行", odds: 194.2, mark: "", summary: "ロスなく運べれば上位食い込みも。" },
+    { number: 5, name: "ギャラボーグ", jockey: "西村淳也", style: "先行", odds: 16.9, mark: "☆", summary: "前で流れに乗れればしぶとい。" },
+    { number: 6, name: "アイニードユー", jockey: "川田将雅", style: "逃げ", odds: 40.6, mark: "", summary: "単騎なら粘り込み十分で展開の鍵。" },
+    { number: 7, name: "アランカール", jockey: "武豊", style: "差し", odds: 7.8, mark: "▲", summary: "外回りで末脚が生きれば浮上。" },
+    { number: 8, name: "ロンギングセリーズ", jockey: "石橋脩", style: "逃げ", odds: 83.9, mark: "", summary: "主張できれば前残り候補。" },
+    { number: 9, name: "ルールザウェイ", jockey: "原優介", style: "逃げ", odds: 85.1, mark: "", summary: "ハナ争い次第で粘り込み余地あり。" },
+    { number: 10, name: "ナムラコスモス", jockey: "田口貫太", style: "先行", odds: 27.6, mark: "", summary: "先行力を生かしてどこまで粘れるか。" },
+    { number: 11, name: "ジッピーチューン", jockey: "北村友一", style: "先行", odds: 93.4, mark: "", summary: "流れに乗れれば残り目注意。" },
+    { number: 12, name: "スウィートハピネス", jockey: "高杉吏麒", style: "先行", odds: 7.8, mark: "", summary: "器用さを生かせれば見せ場可能。" },
+    { number: 13, name: "リリージョワ", jockey: "浜中俊", style: "逃げ", odds: 5.7, mark: "", summary: "前で運べれば展開ひとつで侮れない。" },
+    { number: 14, name: "ドリームコア", jockey: "ルメール", style: "差し", odds: 4.1, mark: "○", summary: "直線勝負なら外回りで怖い存在。" },
+    { number: 15, name: "スターアニス", jockey: "松山弘平", style: "差し", odds: 3.5, mark: "◎", summary: "差し届く流れなら上位圏内。" },
+    { number: 16, name: "ショウナンカリス", jockey: "池添謙一", style: "差し", odds: 327.0, mark: "", summary: "流れが向けば末脚発揮も可能。" },
+    { number: 17, name: "ブラックチャリス", jockey: "津村明秀", style: "先行", odds: 37.5, mark: "", summary: "先行力を生かしてしぶとさ勝負。" },
+    { number: 18, name: "プレセピオ", jockey: "富田暁", style: "先行", odds: 258.9, mark: "", summary: "外枠からでも流れに乗れれば一発注意。" },
+  ],
+};
