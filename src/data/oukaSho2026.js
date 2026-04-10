@@ -39,7 +39,7 @@ export const oukaSho2026 = {
     { frame: 3, number: 5, name: "ギャラボーグ", ageSex: "牝3", jockey: "西村淳也", style: "先行", odds: 16.9, mark: "☆", comment: "近走着順冴えずも素質は高い。人気落ちなら穴で一考の余地あり。" },
     { frame: 3, number: 6, name: "アイニードユー", ageSex: "牝3", jockey: "川田将雅", style: "逃げ", odds: 40.6, comment: "安定して脚使えるタイプ。展開ハマれば掲示板以上も十分狙える。" },
 
-    { frame: 4, number: 7, name: "アランカール", ageSex: "牝3", jockey: "武豊", style: "差し", odds: 7.8, mark: "▲", comment: "チューリップ賞勝ちで実績上位。自在性ありG1でも勝ち負け濃厚。" },
+    { frame: 4, number: 7, name: "アランカール", ageSex: "牝3", jockey: "武豊", style: "差し", odds: 7.8, mark: "▲", comment: "チューリップ賞3着、阪神JF5着でも素質は上位。人気を背負った実績からも巻き返し十分。" },
     { frame: 4, number: 8, name: "ロンギングセリーズ", ageSex: "牝3", jockey: "石橋脩", style: "逃げ", odds: 83.9, comment: "差し脚鋭く一発の魅力。展開がハマれば上位食い込み可能。" },
 
     { frame: 5, number: 9, name: "ルールザウェイ", ageSex: "牝3", jockey: "原優介", style: "逃げ", odds: 85.1, comment: "新馬勝ちの素質馬。経験不足もポテンシャル高く一発秘める。" },
