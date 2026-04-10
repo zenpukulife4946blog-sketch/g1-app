@@ -1,39 +1,428 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  font-family: sans-serif;
   background: #f5f7fb;
+  color: #111827;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.app {
+  width: 100%;
 }
 
 .container {
-  padding: 16px;
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 20px 16px 40px;
+}
+
+.page-header {
+  margin-bottom: 20px;
+}
+
+.page-header h1 {
+  margin: 0 0 8px;
+  font-size: 32px;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.page-subtitle {
+  margin: 0;
+  color: #334155;
+  font-size: 15px;
+  line-height: 1.7;
+  font-weight: 600;
 }
 
 .panel {
-  background: white;
-  padding: 12px;
-  margin-bottom: 12px;
-  border-radius: 10px;
+  background: #ffffff;
+  border: 1px solid #dbe2ea;
+  border-radius: 16px;
+  padding: 22px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
 }
 
-.card {
-  padding: 10px;
-  margin-bottom: 8px;
-  border-radius: 8px;
+.section-title {
+  margin: 0 0 16px;
+  font-size: 24px;
+  font-weight: 800;
+  color: #0f172a;
+  border-left: 5px solid #2563eb;
+  padding-left: 10px;
+}
+
+.filters {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+  align-items: end;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.field label {
+  font-size: 14px;
+  font-weight: 800;
+  color: #334155;
+}
+
+.field select,
+.load-button {
+  height: 50px;
+  border: 1px solid #cfd8e3;
+  border-radius: 12px;
+  padding: 0 14px;
+  font-size: 17px;
+  font-weight: 700;
+  background: #fff;
+  color: #0f172a;
+}
+
+.field select:disabled {
+  background: #f1f5f9;
+  color: #94a3b8;
+}
+
+.load-button {
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+  color: #fff;
+  font-weight: 800;
   cursor: pointer;
+  border: none;
+  box-shadow: 0 8px 18px rgba(37, 99, 235, 0.25);
+  letter-spacing: 0.02em;
 }
 
-/* 枠色 */
-.frame1 { background: #ffffff; }
-.frame2 { background: #e5e7eb; }
-.frame3 { background: #fee2e2; }
-.frame4 { background: #dbeafe; }
-.frame5 { background: #fef9c3; }
-.frame6 { background: #dcfce7; }
-.frame7 { background: #fed7aa; }
-.frame8 { background: #fce7f3; }
+.load-button:hover:not(:disabled) {
+  transform: translateY(-1px);
+}
 
-.age {
-  margin-left: 6px;
-  font-size: 12px;
-  color: #555;
+.load-button:disabled {
+  background: #9ca3af;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.race-grid {
+  display: grid;
+  grid-template-columns: 100px 1fr 100px 1fr;
+  gap: 14px 18px;
+  align-items: start;
+}
+
+.grid-label {
+  font-size: 15px;
+  font-weight: 800;
+  color: #334155;
+}
+
+.grid-value {
+  font-size: 16px;
+  font-weight: 700;
+  color: #111827;
+  line-height: 1.8;
+}
+
+.course-comment {
+  line-height: 1.9;
+}
+
+.marks-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mark-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 14px;
+  border-radius: 12px;
+  color: #fff;
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.mark-symbol {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  min-width: 28px;
+  height: 28px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.18);
+}
+
+.mark-red {
+  background: #dc2626;
+}
+
+.mark-blue {
+  background: #2563eb;
+}
+
+.mark-green {
+  background: #059669;
+}
+
+.mark-orange {
+  background: #d97706;
+}
+
+.mark-purple {
+  background: #7c3aed;
+}
+
+.betting-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  line-height: 1.8;
+  font-size: 16px;
+  font-weight: 700;
+  color: #111827;
+}
+
+.horse-card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.horse-card {
+  width: 100%;
+  border: 1px solid #d6deea;
+  border-radius: 14px;
+  padding: 14px 16px;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.2s ease;
+  color: #111827;
+}
+
+.horse-card:hover {
+  border-color: #93c5fd;
+  transform: translateY(-1px);
+}
+
+.horse-row-top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+
+.horse-number {
+  font-size: 18px;
+  font-weight: 800;
+  color: #0f172a;
+  min-width: 22px;
+}
+
+.horse-name {
+  font-size: 18px;
+  font-weight: 800;
+  color: #0f172a;
+  word-break: break-word;
+}
+
+.horse-age-sex {
+  margin-left: 8px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #334155;
+}
+
+.horse-row-bottom {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding-left: 32px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #111827;
+  flex-wrap: wrap;
+}
+
+.horse-jockey {
+  color: #0f172a;
+}
+
+.horse-style {
+  font-family: "Courier New", monospace;
+  letter-spacing: 1px;
+  color: #1f2937;
+}
+
+.horse-odds {
+  color: #0f172a;
+  white-space: nowrap;
+}
+
+.frame-white {
+  background: #ffffff;
+}
+
+.frame-black {
+  background: #e5e7eb;
+}
+
+.frame-red {
+  background: #fee2e2;
+}
+
+.frame-blue {
+  background: #dbeafe;
+}
+
+.frame-yellow {
+  background: #fef3c7;
+}
+
+.frame-green {
+  background: #dcfce7;
+}
+
+.frame-orange {
+  background: #fed7aa;
+}
+
+.frame-pink {
+  background: #fce7f3;
+}
+
+.horse-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.detail-card {
+  border: 1px solid #d6deea;
+  border-radius: 14px;
+  padding: 16px;
+}
+
+.detail-title-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.detail-number {
+  font-size: 18px;
+  font-weight: 800;
+  color: #0f172a;
+  min-width: 22px;
+}
+
+.detail-title {
+  font-size: 22px;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.detail-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+}
+
+.detail-grid > div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.info-label {
+  font-size: 13px;
+  font-weight: 800;
+  color: #475569;
+}
+
+.detail-summary p {
+  margin: 8px 0 0;
+  line-height: 1.9;
+  font-size: 15px;
+  color: #111827;
+  font-weight: 600;
+}
+
+.empty-message {
+  color: #475569;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+@media (max-width: 900px) {
+  .filters {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .race-grid {
+    grid-template-columns: 100px 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 16px 12px 32px;
+  }
+
+  .page-header h1 {
+    font-size: 28px;
+  }
+
+  .section-title {
+    font-size: 21px;
+  }
+
+  .filters {
+    grid-template-columns: 1fr;
+  }
+
+  .field select,
+  .load-button {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .panel {
+    padding: 16px;
+    border-radius: 14px;
+  }
+
+  .horse-name {
+    font-size: 17px;
+  }
+
+  .horse-row-bottom {
+    padding-left: 32px;
+    font-size: 14px;
+    gap: 10px;
+  }
+
+  .detail-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .detail-title {
+    font-size: 19px;
+  }
 }

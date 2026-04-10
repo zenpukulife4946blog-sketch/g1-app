@@ -19,139 +19,430 @@ function App() {
 
   const detailRef = useRef(null);
 
-  const years = [...new Set(raceCatalog.map((r) => r.year))];
+  const years = useMemo(() => {
+    return [...new Set(raceCatalog.map((race) => race.year))];
+  }, []);
 
   const courses = useMemo(() => {
-    return raceCatalog
-      .filter((r) => r.year === selectedYear)
-      .map((r) => r.course)
-      .filter((v, i, a) => a.indexOf(v) === i);
-  }, [selectedYear]);
+    if (!selectedYear) return [];
+    return [
+      ...new Set(
+        raceCatalog
+          .filter((race) => race.year === selectedYear)
+          .map((race) => race.course)
+      ),
+    ];
+  }, [selectedYear, raceCatalog]);
 
-  const raceOptions = raceCatalog.filter(
-    (r) => r.year === selectedYear && r.course === selectedCourse
-  );
+  const raceOptions = useMemo(() => {
+    if (!selectedYear || !selectedCourse) return [];
+    return raceCatalog.filter(
+      (race) => race.year === selectedYear && race.course === selectedCourse
+    );
+  }, [selectedYear, selectedCourse, raceCatalog]);
+
+  const selectedRaceLabel = useMemo(() => {
+    const found = raceCatalog.find(
+      (race) =>
+        race.year === selectedYear &&
+        race.course === selectedCourse &&
+        race.key === selectedRaceKey
+    );
+    return found?.label || "";
+  }, [raceCatalog, selectedYear, selectedCourse, selectedRaceKey]);
 
   const getStyleIcon = (style) => {
     switch (style) {
-      case "逃げ": return "◀︎◁◁◁";
-      case "先行": return "◁◀︎◁◁";
-      case "差し": return "◁◁◀︎◁";
-      case "追込": return "◁◁◁◀︎";
-      default: return "";
+      case "逃げ":
+        return "◀︎◁◁◁";
+      case "先行":
+        return "◁◀︎◁◁";
+      case "差し":
+        return "◁◁◀︎◁";
+      case "追込":
+        return "◁◁◁◀︎";
+      default:
+        return "----";
     }
+  };
+
+  const stripMarkSymbol = (value = "", symbol = "") => {
+    return String(value).replace(symbol, "").trim();
+  };
+
+  const getHorseComment = (horse) => {
+    if (!horse) return "コメントは未設定です。";
+
+    return (
+      horse.comment ||
+      horse.summary ||
+      horse.memo ||
+      horse.analysis ||
+      horse.shortComment ||
+      horse.note ||
+      "コメントは未設定です。"
+    );
+  };
+
+  const getHorseMark = (horse) => {
+    if (horse.mark) return horse.mark;
+    if (!currentRace?.marks) return "";
+
+    const honmei = stripMarkSymbol(currentRace.marks.honmei || "", "◎");
+    const taikou = stripMarkSymbol(currentRace.marks.taikou || "", "○");
+    const tanana = stripMarkSymbol(currentRace.marks.tanana || "", "▲");
+    const renka = stripMarkSymbol(currentRace.marks.renka || "", "△");
+    const ana = stripMarkSymbol(currentRace.marks.ana || "", "☆");
+
+    if (horse.name === honmei) return "◎";
+    if (horse.name === taikou) return "○";
+    if (horse.name === tanana) return "▲";
+    if (horse.name === renka) return "△";
+    if (horse.name === ana) return "☆";
+
+    return "";
   };
 
   const getFrameColorClass = (frame) => {
     switch (frame) {
-      case 1: return "frame1";
-      case 2: return "frame2";
-      case 3: return "frame3";
-      case 4: return "frame4";
-      case 5: return "frame5";
-      case 6: return "frame6";
-      case 7: return "frame7";
-      case 8: return "frame8";
-      default: return "";
+      case 1:
+        return "frame-white";
+      case 2:
+        return "frame-black";
+      case 3:
+        return "frame-red";
+      case 4:
+        return "frame-blue";
+      case 5:
+        return "frame-yellow";
+      case 6:
+        return "frame-green";
+      case 7:
+        return "frame-orange";
+      case 8:
+        return "frame-pink";
+      default:
+        return "";
     }
   };
 
+  const formatPoints = (value) => {
+    if (value === null || value === undefined || value === "") return null;
+
+    const raw = String(value).trim();
+
+    if (raw.endsWith("点")) return raw;
+    if (raw.endsWith("ポイント")) return raw.replace(/ポイント$/, "点");
+
+    return `${raw}点`;
+  };
+
+  const handleYearChange = (e) => {
+    const newYear = e.target.value;
+    setSelectedYear(newYear);
+    setSelectedCourse("");
+    setSelectedRaceKey("");
+    setCurrentRace(null);
+    setSelectedHorse(null);
+  };
+
+  const handleCourseChange = (e) => {
+    const newCourse = e.target.value;
+    setSelectedCourse(newCourse);
+    setSelectedRaceKey("");
+    setCurrentRace(null);
+    setSelectedHorse(null);
+  };
+
+  const handleRaceChange = (e) => {
+    const newRaceKey = e.target.value;
+    setSelectedRaceKey(newRaceKey);
+    setCurrentRace(null);
+    setSelectedHorse(null);
+  };
+
   const handleLoadRace = () => {
-    const found = raceCatalog.find(
-      (r) =>
-        r.year === selectedYear &&
-        r.course === selectedCourse &&
-        r.key === selectedRaceKey
+    const foundRace = raceCatalog.find(
+      (race) =>
+        race.year === selectedYear &&
+        race.course === selectedCourse &&
+        race.key === selectedRaceKey
     );
-    setCurrentRace(found?.data || null);
+
+    if (!foundRace) return;
+
+    setCurrentRace(foundRace.data);
     setSelectedHorse(null);
   };
 
   const handleHorseClick = (horse) => {
-    setSelectedHorse(horse);
+    setSelectedHorse({
+      ...horse,
+      mark: getHorseMark(horse),
+    });
+
     setTimeout(() => {
-      detailRef.current?.scrollIntoView({ behavior: "smooth" });
+      detailRef.current?.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
     }, 100);
   };
 
   return (
-    <div className="container">
-      <h1>G1情報アプリ</h1>
+    <div className="app">
+      <div className="container">
+        <header className="page-header">
+          <h1>G1情報アプリ</h1>
+          <p className="page-subtitle">
+            年・競馬場・レース名を選んで、予想印・買い目・出馬表を確認
+          </p>
+        </header>
 
-      {/* レース選択 */}
-      <div className="panel">
-        <h2>レース選択</h2>
+        <section className="panel">
+          <h2 className="section-title">レース選択</h2>
 
-        <select value={selectedYear} onChange={(e) => setSelectedYear(e.target.value)}>
-          <option value="">年</option>
-          {years.map((y) => <option key={y}>{y}</option>)}
-        </select>
-
-        <select value={selectedCourse} onChange={(e) => setSelectedCourse(e.target.value)}>
-          <option value="">競馬場</option>
-          {courses.map((c) => <option key={c}>{c}</option>)}
-        </select>
-
-        <select value={selectedRaceKey} onChange={(e) => setSelectedRaceKey(e.target.value)}>
-          <option value="">レース</option>
-          {raceOptions.map((r) => (
-            <option key={r.key} value={r.key}>{r.label}</option>
-          ))}
-        </select>
-
-        <button onClick={handleLoadRace}>情報表示</button>
-      </div>
-
-      {currentRace && (
-        <>
-          {/* レース概要 */}
-          <div className="panel">
-            <h2>レース概要</h2>
-            <p>{currentRace.courseComment}</p>
-            <p>{currentRace.surface}{currentRace.distance}m</p>
-          </div>
-
-          {/* 買い目 */}
-          <div className="panel">
-            <h2>買い目</h2>
-            <p>{currentRace.betting.type}</p>
-            <p>1着: {currentRace.betting.first.join(",")}</p>
-            <p>2着: {currentRace.betting.second.join(",")}</p>
-            <p>3着: {currentRace.betting.third.join(",")}</p>
-            <p>点数: {currentRace.betting.points}</p>
-          </div>
-
-          {/* 出馬表 */}
-          <div className="panel">
-            <h2>出馬表</h2>
-
-            {currentRace.horses.map((h) => (
-              <div
-                key={h.number}
-                className={`card ${getFrameColorClass(h.frame)}`}
-                onClick={() => handleHorseClick(h)}
+          <div className="filters">
+            <div className="field">
+              <label htmlFor="year-select">年</label>
+              <select
+                id="year-select"
+                value={selectedYear}
+                onChange={handleYearChange}
               >
-                <div>
-                  {h.number} {h.name} <span className="age">{h.ageSex}</span>
+                <option value="">年を選択</option>
+                {years.map((year) => (
+                  <option key={year} value={year}>
+                    {year}年
+                  </option>
+                ))}
+              </select>
+            </div>
+
+            <div className="field">
+              <label htmlFor="course-select">競馬場</label>
+              <select
+                id="course-select"
+                value={selectedCourse}
+                onChange={handleCourseChange}
+                disabled={!selectedYear}
+              >
+                <option value="">競馬場を選択</option>
+                {courses.map((course) => (
+                  <option key={course} value={course}>
+                    {course}
+                  </option>
+                ))}
+              </select>
+            </div>
+
+            <div className="field">
+              <label htmlFor="race-select">レース名</label>
+              <select
+                id="race-select"
+                value={selectedRaceKey}
+                onChange={handleRaceChange}
+                disabled={!selectedCourse}
+              >
+                <option value="">レースを選択</option>
+                {raceOptions.map((race) => (
+                  <option key={race.key} value={race.key}>
+                    {race.label}
+                  </option>
+                ))}
+              </select>
+            </div>
+
+            <div className="field button-field">
+              <label>&nbsp;</label>
+              <button
+                type="button"
+                className="load-button"
+                onClick={handleLoadRace}
+                disabled={!selectedYear || !selectedCourse || !selectedRaceKey}
+              >
+                情報表示
+              </button>
+            </div>
+          </div>
+        </section>
+
+        {currentRace && (
+          <>
+            <section className="panel">
+              <h2 className="section-title">レース概要</h2>
+
+              <div className="race-grid">
+                <div className="grid-label">年</div>
+                <div className="grid-value">{selectedYear}年</div>
+
+                <div className="grid-label">競馬場</div>
+                <div className="grid-value">{selectedCourse}競馬場</div>
+
+                <div className="grid-label">レース名</div>
+                <div className="grid-value">{selectedRaceLabel}</div>
+
+                <div className="grid-label">条件</div>
+                <div className="grid-value">
+                  {currentRace.surface}
+                  {currentRace.distance}m / {currentRace.turn} /{" "}
+                  {currentRace.courseLayout}
                 </div>
-                <div>
-                  {h.jockey} {getStyleIcon(h.style)} 単{h.odds}
+
+                <div className="grid-label">天候</div>
+                <div className="grid-value">{currentRace.weather || "未設定"}</div>
+
+                <div className="grid-label">馬場状態</div>
+                <div className="grid-value">
+                  {currentRace.track || currentRace.trackCondition || "未設定"}
+                </div>
+
+                <div className="grid-label">予想ペース</div>
+                <div className="grid-value">{currentRace.pace || "未設定"}</div>
+
+                <div className="grid-label">コース解説</div>
+                <div className="grid-value course-comment">
+                  {currentRace.courseComment || "未設定"}
                 </div>
               </div>
-            ))}
-          </div>
+            </section>
 
-          {/* コメント */}
-          <div className="panel" ref={detailRef}>
-            <h2>コメント</h2>
-            {selectedHorse ? (
-              <p>{selectedHorse.comment || selectedHorse.summary}</p>
-            ) : (
-              <p>馬をクリックしてください</p>
+            {currentRace.marks && (
+              <section className="panel">
+                <h2 className="section-title">予想印</h2>
+
+                <div className="marks-box">
+                  <div className="mark-item mark-red">
+                    <span className="mark-symbol">◎</span>
+                    <span>{stripMarkSymbol(currentRace.marks.honmei || "", "◎")}</span>
+                  </div>
+                  <div className="mark-item mark-blue">
+                    <span className="mark-symbol">○</span>
+                    <span>{stripMarkSymbol(currentRace.marks.taikou || "", "○")}</span>
+                  </div>
+                  <div className="mark-item mark-green">
+                    <span className="mark-symbol">▲</span>
+                    <span>{stripMarkSymbol(currentRace.marks.tanana || "", "▲")}</span>
+                  </div>
+                  <div className="mark-item mark-orange">
+                    <span className="mark-symbol">△</span>
+                    <span>{stripMarkSymbol(currentRace.marks.renka || "", "△")}</span>
+                  </div>
+                  <div className="mark-item mark-purple">
+                    <span className="mark-symbol">☆</span>
+                    <span>{stripMarkSymbol(currentRace.marks.ana || "", "☆")}</span>
+                  </div>
+                </div>
+              </section>
             )}
-          </div>
-        </>
-      )}
+
+            {currentRace.betting && (
+              <section className="panel">
+                <h2 className="section-title">買い目</h2>
+
+                <div className="betting-box">
+                  <div>券種: {currentRace.betting.type}</div>
+                  <div>1着: {currentRace.betting.first?.join(", ")}</div>
+                  <div>2着: {currentRace.betting.second?.join(", ")}</div>
+                  <div>3着: {currentRace.betting.third?.join(", ")}</div>
+                  {currentRace.betting.points && (
+                    <div>点数: {formatPoints(currentRace.betting.points)}</div>
+                  )}
+                  {currentRace.betting.unit && (
+                    <div>金額: {currentRace.betting.unit}</div>
+                  )}
+                  {currentRace.betting.total && (
+                    <div>合計: {currentRace.betting.total}</div>
+                  )}
+                </div>
+              </section>
+            )}
+
+            <section className="panel">
+              <h2 className="section-title">出馬表</h2>
+
+              <div className="horse-card-list">
+                {(currentRace.horses || []).map((horse) => (
+                  <button
+                    key={horse.number}
+                    type="button"
+                    className={`horse-card ${getFrameColorClass(horse.frame)}`}
+                    onClick={() => handleHorseClick(horse)}
+                  >
+                    <div className="horse-row-top">
+                      <span className="horse-number">{horse.number}</span>
+                      <span className="horse-name">
+                        {horse.name}
+                        {horse.ageSex && (
+                          <span className="horse-age-sex">{horse.ageSex}</span>
+                        )}
+                      </span>
+                    </div>
+
+                    <div className="horse-row-bottom">
+                      <span className="horse-jockey">{horse.jockey || "未設定"}</span>
+                      <span className="horse-style">{getStyleIcon(horse.style)}</span>
+                      <span className="horse-odds">単 {horse.odds ?? "-"}</span>
+                    </div>
+                  </button>
+                ))}
+              </div>
+            </section>
+
+            <section className="panel" ref={detailRef}>
+              <h2 className="section-title">コメント</h2>
+
+              {selectedHorse ? (
+                <div className="horse-detail">
+                  <div
+                    className={`detail-card ${getFrameColorClass(selectedHorse.frame)}`}
+                  >
+                    <div className="detail-title-row">
+                      <span className="detail-number">{selectedHorse.number}</span>
+                      <span className="detail-title">
+                        {selectedHorse.name}
+                        {selectedHorse.ageSex && (
+                          <span className="horse-age-sex">{selectedHorse.ageSex}</span>
+                        )}
+                      </span>
+                    </div>
+
+                    <div className="detail-grid">
+                      <div>
+                        <span className="info-label">騎手</span>
+                        <span>{selectedHorse.jockey || "未設定"}</span>
+                      </div>
+                      <div>
+                        <span className="info-label">脚質</span>
+                        <span>
+                          {getStyleIcon(selectedHorse.style)} {selectedHorse.style}
+                        </span>
+                      </div>
+                      <div>
+                        <span className="info-label">オッズ</span>
+                        <span>単 {selectedHorse.odds ?? "-"}</span>
+                      </div>
+                      <div>
+                        <span className="info-label">印</span>
+                        <span>{selectedHorse.mark || "なし"}</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="detail-summary">
+                    <span className="info-label">コメント</span>
+                    <p>{getHorseComment(selectedHorse)}</p>
+                  </div>
+                </div>
+              ) : (
+                <div className="empty-message">
+                  馬名をクリックすると、ここに馬情報とコメントが表示されます。
+                </div>
+              )}
+            </section>
+          </>
+        )}
+      </div>
     </div>
   );
 }
