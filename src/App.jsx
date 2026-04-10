@@ -42,9 +42,14 @@ function App() {
   }, [selectedYear, selectedCourse]);
 
   const selectedRaceLabel = useMemo(() => {
-    const found = raceOptions.find((race) => race.key === selectedRaceKey);
+    const found = raceCatalog.find(
+      (race) =>
+        race.year === selectedYear &&
+        race.course === selectedCourse &&
+        race.key === selectedRaceKey
+    );
     return found?.label || "";
-  }, [raceOptions, selectedRaceKey]);
+  }, [raceCatalog, selectedYear, selectedCourse, selectedRaceKey]);
 
   const getStyleIcon = (style) => {
     switch (style) {
@@ -62,7 +67,7 @@ function App() {
   };
 
   const stripMarkSymbol = (value = "", symbol = "") => {
-    return value.replace(symbol, "").trim();
+    return String(value).replace(symbol, "").trim();
   };
 
   const getHorseComment = (horse) => {
@@ -112,12 +117,18 @@ function App() {
 
   const formatPoints = (value) => {
     if (value === null || value === undefined || value === "") return null;
-    const text = String(value).replace(/ポイント/g, "").replace(/point/gi, "").trim();
-    return `${text}点`;
+
+    const raw = String(value).trim();
+
+    if (raw.endsWith("点")) return raw;
+    if (raw.endsWith("ポイント")) return raw.replace(/ポイント$/, "点");
+
+    return `${raw}点`;
   };
 
   const handleYearChange = (e) => {
-    setSelectedYear(e.target.value);
+    const newYear = e.target.value;
+    setSelectedYear(newYear);
     setSelectedCourse("");
     setSelectedRaceKey("");
     setCurrentRace(null);
@@ -125,14 +136,16 @@ function App() {
   };
 
   const handleCourseChange = (e) => {
-    setSelectedCourse(e.target.value);
+    const newCourse = e.target.value;
+    setSelectedCourse(newCourse);
     setSelectedRaceKey("");
     setCurrentRace(null);
     setSelectedHorse(null);
   };
 
   const handleRaceChange = (e) => {
-    setSelectedRaceKey(e.target.value);
+    const newRaceKey = e.target.value;
+    setSelectedRaceKey(newRaceKey);
     setCurrentRace(null);
     setSelectedHorse(null);
   };
@@ -180,8 +193,12 @@ function App() {
 
           <div className="filters">
             <div className="field">
-              <label>年</label>
-              <select value={selectedYear} onChange={handleYearChange}>
+              <label htmlFor="year-select">年</label>
+              <select
+                id="year-select"
+                value={selectedYear}
+                onChange={handleYearChange}
+              >
                 <option value="">年を選択</option>
                 {years.map((year) => (
                   <option key={year} value={year}>
@@ -192,8 +209,9 @@ function App() {
             </div>
 
             <div className="field">
-              <label>競馬場</label>
+              <label htmlFor="course-select">競馬場</label>
               <select
+                id="course-select"
                 value={selectedCourse}
                 onChange={handleCourseChange}
                 disabled={!selectedYear}
@@ -208,8 +226,9 @@ function App() {
             </div>
 
             <div className="field">
-              <label>レース名</label>
+              <label htmlFor="race-select">レース名</label>
               <select
+                id="race-select"
                 value={selectedRaceKey}
                 onChange={handleRaceChange}
                 disabled={!selectedCourse}
@@ -226,6 +245,7 @@ function App() {
             <div className="field button-field">
               <label>&nbsp;</label>
               <button
+                type="button"
                 className="load-button"
                 onClick={handleLoadRace}
                 disabled={!selectedYear || !selectedCourse || !selectedRaceKey}
@@ -342,9 +362,7 @@ function App() {
                       <span className="horse-number">{horse.number}</span>
                       <span className="horse-name">{horse.name}</span>
                       <span className="horse-style">{getStyleIcon(horse.style)}</span>
-                      <span className="horse-odds">
-                        単 {horse.odds ?? "-"}
-                      </span>
+                      <span className="horse-odds">単 {horse.odds ?? "-"}</span>
                     </div>
                     <div className="horse-row-bottom">{horse.jockey || "未設定"}</div>
                   </button>
