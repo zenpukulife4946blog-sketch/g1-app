@@ -1,451 +1,72 @@
-* {
-  box-sizing: border-box;
-}
-
-:root {
-  --bg: #f4f7fb;
-  --card: #ffffff;
-  --text: #1f2937;
-  --subtext: #6b7280;
-  --border: #e5e7eb;
-  --shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
-  --shadow-soft: 0 6px 18px rgba(15, 23, 42, 0.06);
-  --navy: #172554;
-  --blue: #2563eb;
-  --gold: #d97706;
-  --red: #dc2626;
-  --orange: #ea580c;
-  --purple: #7c3aed;
-  --green: #059669;
-}
-
 body {
-  margin: 0;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    "Hiragino Sans",
-    "Hiragino Kaku Gothic ProN",
-    "Yu Gothic UI",
-    "Yu Gothic",
-    Meiryo,
-    sans-serif;
-  background:
-    linear-gradient(180deg, #edf4ff 0%, #f7f9fc 180px, #f4f7fb 100%);
-  color: var(--text);
+  background: #f5f7fb;
+  font-family: sans-serif;
 }
 
-#root {
-  min-height: 100vh;
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
 }
 
-.app {
-  width: 100%;
-  max-width: 520px;
-  margin: 0 auto;
-  padding: 16px 14px 40px;
+.panel {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
 }
 
-.hero-card {
-  background: linear-gradient(135deg, #14213d 0%, #1d4ed8 100%);
-  color: #ffffff;
-  border-radius: 24px;
-  padding: 22px 18px;
-  box-shadow: 0 16px 36px rgba(29, 78, 216, 0.24);
+h2 {
   margin-bottom: 16px;
 }
 
-.hero-badge {
-  margin: 0 0 8px;
-  font-size: 12px;
-  font-weight: 800;
-  letter-spacing: 0.12em;
-  opacity: 0.86;
+/* 余白広め */
+.panel div {
+  margin-bottom: 8px;
 }
 
-.hero-title {
-  margin: 0;
-  font-size: 28px;
-  line-height: 1.2;
-  font-weight: 800;
-}
-
-.hero-subtitle {
-  margin: 10px 0 0;
-  font-size: 14px;
-  line-height: 1.7;
-  opacity: 0.95;
-}
-
-.section-card {
-  background: var(--card);
-  border-radius: 22px;
-  padding: 18px 16px;
-  margin-bottom: 16px;
-  box-shadow: var(--shadow);
-  border: 1px solid rgba(255, 255, 255, 0.65);
-}
-
-.section-header {
-  margin-bottom: 14px;
-}
-
-.section-title {
-  margin: 0;
-  font-size: 20px;
-  font-weight: 800;
-  color: #0f172a;
-  letter-spacing: 0.01em;
-}
-
-.section-desc {
-  margin: 6px 0 0;
-  font-size: 13px;
-  color: var(--subtext);
-  line-height: 1.6;
-}
-
-.select-group {
+/* レース概要 */
+.race-grid {
   display: grid;
-  gap: 12px;
+  grid-template-columns: 100px 1fr;
+  gap: 10px 16px;
 }
 
-.input-block {
-  display: grid;
-  gap: 6px;
+.course-comment {
+  grid-column: span 2;
 }
 
-.input-label {
-  font-size: 13px;
-  font-weight: 700;
-  color: #334155;
+/* 印 */
+.mark-item {
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
 }
 
-.input-block select {
-  width: 100%;
-  height: 50px;
-  border: 1px solid #dbe2ea;
-  border-radius: 14px;
-  background: #f8fbff;
-  padding: 0 14px;
-  font-size: 16px;
-  color: #0f172a;
-  outline: none;
-  appearance: none;
-  box-shadow: inset 0 1px 2px rgba(15, 23, 42, 0.03);
-}
+.mark-red { background: #dc2626; }
+.mark-blue { background: #2563eb; }
+.mark-green { background: #059669; }
+.mark-orange { background: #d97706; }
+.mark-purple { background: #7c3aed; }
 
-.input-block select:focus {
-  border-color: #93c5fd;
-  background: #ffffff;
-  box-shadow: 0 0 0 4px rgba(147, 197, 253, 0.2);
-}
-
-.overview-grid {
-  display: grid;
-  gap: 10px;
-}
-
-.overview-item {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-  padding: 12px 14px;
-  border-radius: 16px;
-  background: #f8fbff;
-  border: 1px solid #e5eef8;
-}
-
-.overview-label {
-  font-size: 13px;
-  color: var(--subtext);
-  font-weight: 700;
-}
-
-.overview-value {
-  font-size: 15px;
-  color: #0f172a;
-  font-weight: 800;
-  text-align: right;
-}
-
-.prediction-list {
-  display: grid;
-  gap: 10px;
-}
-
-.prediction-row {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  padding: 12px 14px;
-  border-radius: 16px;
-  background: #f8fbff;
-  border: 1px solid #e5eef8;
-}
-
-.prediction-horse {
-  font-size: 16px;
-  font-weight: 800;
-  color: #111827;
-}
-
-.mark {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 38px;
-  height: 38px;
-  border-radius: 999px;
-  color: #ffffff;
-  font-size: 15px;
-  font-weight: 800;
-  box-shadow: var(--shadow-soft);
-}
-
-.mark-gold {
-  background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
-}
-
-.mark-blue {
-  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
-}
-
-.mark-red {
-  background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
-}
-
-.mark-orange {
-  background: linear-gradient(135deg, #fb923c 0%, #ea580c 100%);
-}
-
-.mark-purple {
-  background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
-}
-
-.betting-box {
-  display: grid;
-  gap: 12px;
-}
-
-.betting-main {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 10px;
-  flex-wrap: wrap;
-}
-
-.betting-type {
-  display: inline-flex;
-  align-items: center;
-  min-height: 38px;
-  padding: 8px 14px;
-  border-radius: 999px;
-  background: linear-gradient(135deg, #1d4ed8 0%, #172554 100%);
-  color: #ffffff;
-  font-size: 14px;
-  font-weight: 800;
-}
-
-.betting-amount {
-  font-size: 14px;
-  color: #334155;
-  font-weight: 700;
-}
-
-.formation-card {
-  padding: 14px;
-  border-radius: 18px;
-  background: #f8fbff;
-  border: 1px solid #e5eef8;
-}
-
-.formation-row {
-  display: flex;
-  align-items: flex-start;
-  gap: 12px;
-  padding: 8px 0;
-}
-
-.formation-row + .formation-row {
-  border-top: 1px dashed #d8e2ee;
-}
-
-.formation-label {
-  width: 42px;
-  flex-shrink: 0;
-  font-size: 13px;
-  font-weight: 800;
-  color: #1d4ed8;
-}
-
-.formation-value {
-  flex: 1;
-  font-size: 15px;
-  line-height: 1.7;
-  color: #0f172a;
-  font-weight: 700;
-}
-
-.betting-subinfo {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-}
-
-.sub-chip {
-  display: inline-flex;
-  align-items: center;
-  min-height: 34px;
-  padding: 6px 12px;
-  border-radius: 999px;
-  background: #eef6ff;
-  color: #1e3a8a;
-  font-size: 13px;
-  font-weight: 700;
-}
-
-.horse-list {
-  display: grid;
-  gap: 12px;
-}
-
+/* 出馬表 */
 .horse-card {
-  background: #ffffff;
-  border-radius: 20px;
-  padding: 14px;
-  box-shadow: var(--shadow-soft);
-  border: 1px solid #edf2f7;
-  position: relative;
-  overflow: hidden;
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  cursor: pointer;
 }
 
-.horse-card.featured {
-  border-width: 2px;
-}
-
-.featured-◎ {
-  border-color: rgba(217, 119, 6, 0.35);
-  background: linear-gradient(180deg, #fffaf1 0%, #ffffff 100%);
-}
-
-.featured-○ {
-  border-color: rgba(37, 99, 235, 0.25);
-  background: linear-gradient(180deg, #f5f9ff 0%, #ffffff 100%);
-}
-
-.featured-▲ {
-  border-color: rgba(220, 38, 38, 0.22);
-  background: linear-gradient(180deg, #fff6f6 0%, #ffffff 100%);
-}
-
-.featured-△ {
-  border-color: rgba(234, 88, 12, 0.22);
-  background: linear-gradient(180deg, #fff8f4 0%, #ffffff 100%);
-}
-
-.featured-☆ {
-  border-color: rgba(124, 58, 237, 0.22);
-  background: linear-gradient(180deg, #faf7ff 0%, #ffffff 100%);
-}
-
-.horse-top {
-  display: flex;
-  align-items: flex-start;
-  gap: 12px;
-}
-
-.number-badge {
-  width: 40px;
-  height: 40px;
-  border-radius: 14px;
-  background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%);
-  color: #ffffff;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 17px;
-  font-weight: 800;
-  flex-shrink: 0;
-  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.2);
-}
-
-.horse-main {
-  flex: 1;
-  min-width: 0;
-}
-
-.horse-name-row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 10px;
+.horse-card:hover {
+  background: #eef;
 }
 
 .horse-name {
-  margin: 0;
+  font-weight: bold;
+}
+
+/* 詳細 */
+.detail-title {
   font-size: 18px;
-  line-height: 1.4;
-  font-weight: 800;
-  color: #111827;
-  word-break: break-word;
-}
-
-.horse-meta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 10px;
-}
-
-.meta-chip {
-  display: inline-flex;
-  align-items: center;
-  min-height: 30px;
-  padding: 5px 10px;
-  border-radius: 999px;
-  background: #f1f5f9;
-  color: #334155;
-  font-size: 12px;
-  font-weight: 700;
-  line-height: 1.4;
-}
-
-.horse-comment {
-  margin: 12px 0 0;
-  padding-top: 12px;
-  border-top: 1px dashed #dbe2ea;
-  font-size: 13px;
-  line-height: 1.8;
-  color: #475569;
-}
-
-@media (min-width: 768px) {
-  .app {
-    max-width: 960px;
-    padding: 24px 20px 48px;
-  }
-
-  .hero-card {
-    padding: 28px 24px;
-  }
-
-  .hero-title {
-    font-size: 34px;
-  }
-
-  .select-group {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  .overview-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .horse-list {
-    grid-template-columns: repeat(2, 1fr);
-  }
+  font-weight: bold;
 }
