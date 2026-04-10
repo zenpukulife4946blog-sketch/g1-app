@@ -1,72 +1,144 @@
-body {
-  background: #f5f7fb;
-  font-family: sans-serif;
-}
-
-.container {
-  max-width: 600px;
-  margin: auto;
-  padding: 20px;
-}
-
 .panel {
-  background: #fff;
-  padding: 20px;
+  background: #ffffff;
+  border: 1px solid #dbe2ea;
+  border-radius: 14px;
+  padding: 22px;
   margin-bottom: 20px;
-  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
 }
 
-h2 {
-  margin-bottom: 16px;
-}
-
-/* 余白広め */
-.panel div {
-  margin-bottom: 8px;
-}
-
-/* レース概要 */
 .race-grid {
   display: grid;
-  grid-template-columns: 100px 1fr;
-  gap: 10px 16px;
+  grid-template-columns: 110px 1fr;
+  gap: 12px 16px;
 }
 
 .course-comment {
-  grid-column: span 2;
+  line-height: 1.8;
 }
 
-/* 印 */
+.marks-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .mark-item {
-  padding: 10px;
-  border-radius: 8px;
-  color: white;
-  font-weight: bold;
+  padding: 12px 14px;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: 700;
 }
 
-.mark-red { background: #dc2626; }
-.mark-blue { background: #2563eb; }
-.mark-green { background: #059669; }
-.mark-orange { background: #d97706; }
-.mark-purple { background: #7c3aed; }
+.mark-red {
+  background: #dc2626;
+}
 
-/* 出馬表 */
+.mark-blue {
+  background: #2563eb;
+}
+
+.mark-green {
+  background: #059669;
+}
+
+.mark-orange {
+  background: #d97706;
+}
+
+.mark-purple {
+  background: #7c3aed;
+}
+
+.betting-box {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  line-height: 1.8;
+}
+
 .horse-card {
-  padding: 12px;
-  border-bottom: 1px solid #ddd;
+  background: #fff;
+  border: 1px solid #d6deea;
+  border-radius: 12px;
+  padding: 14px;
+  margin-bottom: 12px;
   cursor: pointer;
+  transition: background 0.2s ease, transform 0.2s ease;
 }
 
 .horse-card:hover {
-  background: #eef;
+  background: #f5f9ff;
+  transform: translateY(-1px);
+}
+
+.horse-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 8px;
 }
 
 .horse-name {
-  font-weight: bold;
+  font-size: 16px;
+  font-weight: 700;
+  color: #1f2a44;
 }
 
-/* 詳細 */
+.horse-mark-badge {
+  min-width: 32px;
+  height: 32px;
+  border-radius: 999px;
+  background: #2563eb;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.horse-meta {
+  font-size: 14px;
+  color: #4b5563;
+  margin-top: 4px;
+}
+
 .detail-title {
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 14px;
+  color: #1f2a44;
+}
+
+.detail-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.detail-grid > div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.detail-summary p {
+  margin: 8px 0 0;
+  line-height: 1.8;
+}
+
+@media (max-width: 600px) {
+  .panel {
+    padding: 16px;
+  }
+
+  .race-grid {
+    grid-template-columns: 90px 1fr;
+  }
+
+  .detail-grid {
+    grid-template-columns: 1fr;
+  }
 }
