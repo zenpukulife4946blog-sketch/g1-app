@@ -3,11 +3,13 @@ import "./App.css";
 import { osakaHai2026 } from "./data/osakaHai2026";
 import { arimaKinen2025 } from "./data/arimaKinen2025";
 import { oukaSho2026 } from "./data/oukaSho2026";
+import { satsukiSho2026 } from "./data/satsukiSho2026";
 
 function App() {
   const raceCatalog = [
     { year: "2026", course: "阪神", key: "osaka", label: "大阪杯", data: osakaHai2026 },
     { year: "2026", course: "阪神", key: "ouka", label: "桜花賞", data: oukaSho2026 },
+    { year: "2026", course: "中山", key: "satsuki", label: "皐月賞", data: satsukiSho2026 },
     { year: "2025", course: "中山", key: "arima", label: "有馬記念", data: arimaKinen2025 },
   ];
 
