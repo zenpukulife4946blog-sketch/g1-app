@@ -1,0 +1,52 @@
+export const satsukiSho2026 = {
+  raceName: "皐月賞",
+  year: 2026,
+  course: "中山",
+  distance: 2000,
+  surface: "芝",
+  turn: "右",
+  courseLayout: "内回り",
+  trackCondition: "良想定",
+  pace: "ミドルペース想定",
+  courseComment:
+    "脚質的には先行馬が強く、更に後半は長くいい脚が求められる。ゴール前の急坂を2度超えるため、タフさも要求される。",
+
+  marks: {
+    honmei: "◎ 12 グリーンエナジー",
+    taikou: "○ 4 ロブチェン",
+    tanana: "▲ 1 カヴァレリッツォ",
+    renka: "△ 9 ライヒスアドラー",
+    ana: "☆ 16 アルトラムス",
+  },
+
+  betting: {
+    type: "3連単フォーメーション",
+    first: ["4", "12"],
+    second: ["1", "4", "8", "11", "12", "15"],
+    third: ["1", "4", "8", "11", "12", "15", "16", "17"],
+    points: "32点",
+    unit: "各100円",
+    total: "3,200円",
+  },
+
+  horses: [
+    { number: 1, frame: 1, name: "カヴァレリッツォ", style: "", comment: "" },
+    { number: 2, frame: 1, name: "サウンドムーブ", style: "", comment: "" },
+    { number: 3, frame: 2, name: "サノノグレーター", style: "", comment: "" },
+    { number: 4, frame: 2, name: "ロブチェン", style: "", comment: "" },
+    { number: 5, frame: 3, name: "アスクエジンバラ", style: "", comment: "" },
+    { number: 6, frame: 3, name: "フォルテアンジェロ", style: "", comment: "" },
+    { number: 7, frame: 4, name: "ロードフィレール", style: "", comment: "" },
+    { number: 8, frame: 4, name: "マテンロウゲイル", style: "", comment: "" },
+    { number: 9, frame: 5, name: "ライヒスアドラー", style: "", comment: "" },
+    { number: 10, frame: 5, name: "ラージアンサンブル", style: "", comment: "" },
+    { number: 11, frame: 6, name: "パントルナイーフ", style: "", comment: "" },
+    { number: 12, frame: 6, name: "グリーンエナジー", style: "", comment: "" },
+    { number: 13, frame: 7, name: "アクロフェイズ", style: "", comment: "" },
+    { number: 14, frame: 7, name: "ゾロアストロ", style: "", comment: "" },
+    { number: 15, frame: 7, name: "リアライズシリウス", style: "", comment: "" },
+    { number: 16, frame: 8, name: "アルトラムス", style: "", comment: "" },
+    { number: 17, frame: 8, name: "アドマイヤクワッズ", style: "", comment: "" },
+    { number: 18, frame: 8, name: "バステール", style: "", comment: "" },
+  ],
+};
