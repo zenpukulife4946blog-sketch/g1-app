@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  background: #f5f7fb;
+  background: linear-gradient(135deg, #f5f7fb 0%, #e0f2fe 100%);
   color: #111827;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
@@ -48,7 +48,7 @@ body {
   border-radius: 16px;
   padding: 22px;
   margin-bottom: 20px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
 }
 
 .section-title {
@@ -107,7 +107,8 @@ body {
 }
 
 .load-button:hover:not(:disabled) {
-  transform: translateY(-1px);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 20px rgba(37, 99, 235, 0.3);
 }
 
 .load-button:disabled {
@@ -161,11 +162,14 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 28px;
-  min-width: 28px;
-  height: 28px;
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.18);
+  width: 32px;
+  min-width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.25);
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .mark-red {
@@ -217,7 +221,8 @@ body {
 
 .horse-card:hover {
   border-color: #93c5fd;
-  transform: translateY(-1px);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
 .horse-row-top {
@@ -380,6 +385,18 @@ body {
   }
 }
 
+@media (max-width: 768px) {
+  .horse-card-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .horse-card {
+    margin-bottom: 0;
+  }
+}
+
 @media (max-width: 600px) {
   .container {
     padding: 16px 12px 32px;
@@ -424,5 +441,10 @@ body {
 
   .detail-title {
     font-size: 19px;
+  }
+
+  .horse-card-list {
+    display: flex;
+    flex-direction: column;
   }
 }
