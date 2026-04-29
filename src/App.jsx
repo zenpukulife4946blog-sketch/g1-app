@@ -4,7 +4,7 @@ import { osakaHai2026 } from "./data/osakaHai2026";
 import { arimaKinen2025 } from "./data/arimaKinen2025";
 import { oukaSho2026 } from "./data/oukaSho2026";
 import { satsukiSho2026 } from "./data/satsukiSho2026";
-import { FaStar, FaCircle, FaTriangle, FaSquare, FaGem } from "react-icons/fa";
+import { FaStar, FaCircle, FaCaretUp, FaSquare, FaGem } from "react-icons/fa";
 
 function App() {
   const raceCatalog = [
@@ -106,7 +106,7 @@ function App() {
       case "○":
         return <FaCircle color="#2563eb" size={18} />;
       case "▲":
-        return <FaTriangle color="#059669" size={18} />;
+        return <FaCaretUp color="#059669" size={18} />;
       case "△":
         return <FaSquare color="#d97706" size={16} />;
       case "☆":
