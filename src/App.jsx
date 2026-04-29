@@ -4,6 +4,7 @@ import { osakaHai2026 } from "./data/osakaHai2026";
 import { arimaKinen2025 } from "./data/arimaKinen2025";
 import { oukaSho2026 } from "./data/oukaSho2026";
 import { satsukiSho2026 } from "./data/satsukiSho2026";
+import { FaStar, FaCircle, FaTriangle, FaSquare, FaGem } from "react-icons/fa";
 
 function App() {
   const raceCatalog = [
@@ -18,6 +19,8 @@ function App() {
   const [selectedRaceKey, setSelectedRaceKey] = useState("");
   const [currentRace, setCurrentRace] = useState(null);
   const [selectedHorse, setSelectedHorse] = useState(null);
+  const [searchTerm, setSearchTerm] = useState("");
+  const [sortBy, setSortBy] = useState("number");
 
   const detailRef = useRef(null);
 
@@ -53,6 +56,34 @@ function App() {
     return found?.label || "";
   }, [raceCatalog, selectedYear, selectedCourse, selectedRaceKey]);
 
+  const filteredHorses = useMemo(() => {
+    if (!currentRace?.horses) return [];
+    let horses = [...currentRace.horses];
+
+    // 検索フィルタ
+    if (searchTerm) {
+      horses = horses.filter((horse) =>
+        horse.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        horse.jockey?.toLowerCase().includes(searchTerm.toLowerCase())
+      );
+    }
+
+    // ソート
+    horses.sort((a, b) => {
+      switch (sortBy) {
+        case "odds":
+          return (a.odds || 999) - (b.odds || 999);
+        case "name":
+          return a.name.localeCompare(b.name);
+        case "number":
+        default:
+          return a.number - b.number;
+      }
+    });
+
+    return horses;
+  }, [currentRace, searchTerm, sortBy]);
+
   const getStyleIcon = (style) => {
     switch (style) {
       case "逃げ":
@@ -65,6 +96,23 @@ function App() {
         return "◁◁◁◀︎";
       default:
         return "----";
+    }
+  };
+
+  const getMarkIcon = (mark) => {
+    switch (mark) {
+      case "◎":
+        return <FaStar color="#dc2626" size={20} />;
+      case "○":
+        return <FaCircle color="#2563eb" size={18} />;
+      case "▲":
+        return <FaTriangle color="#059669" size={18} />;
+      case "△":
+        return <FaSquare color="#d97706" size={16} />;
+      case "☆":
+        return <FaGem color="#7c3aed" size={18} />;
+      default:
+        return null;
     }
   };
 
@@ -175,6 +223,8 @@ function App() {
 
     setCurrentRace(foundRace.data);
     setSelectedHorse(null);
+    setSearchTerm("");
+    setSortBy("number");
   };
 
   const handleHorseClick = (horse) => {
@@ -315,23 +365,23 @@ function App() {
 
                 <div className="marks-box">
                   <div className="mark-item mark-red">
-                    <span className="mark-symbol">◎</span>
+                    <div className="mark-symbol">{getMarkIcon("◎")}</div>
                     <span>{stripMarkSymbol(currentRace.marks.honmei || "", "◎")}</span>
                   </div>
                   <div className="mark-item mark-blue">
-                    <span className="mark-symbol">○</span>
+                    <div className="mark-symbol">{getMarkIcon("○")}</div>
                     <span>{stripMarkSymbol(currentRace.marks.taikou || "", "○")}</span>
                   </div>
                   <div className="mark-item mark-green">
-                    <span className="mark-symbol">▲</span>
+                    <div className="mark-symbol">{getMarkIcon("▲")}</div>
                     <span>{stripMarkSymbol(currentRace.marks.tanana || "", "▲")}</span>
                   </div>
                   <div className="mark-item mark-orange">
-                    <span className="mark-symbol">△</span>
+                    <div className="mark-symbol">{getMarkIcon("△")}</div>
                     <span>{stripMarkSymbol(currentRace.marks.renka || "", "△")}</span>
                   </div>
                   <div className="mark-item mark-purple">
-                    <span className="mark-symbol">☆</span>
+                    <div className="mark-symbol">{getMarkIcon("☆")}</div>
                     <span>{stripMarkSymbol(currentRace.marks.ana || "", "☆")}</span>
                   </div>
                 </div>
@@ -363,8 +413,35 @@ function App() {
             <section className="panel">
               <h2 className="section-title">出馬表</h2>
 
+              <div className="filters">
+                <div className="field">
+                  <label htmlFor="search-input">検索 (馬名・騎手)</label>
+                  <input
+                    id="search-input"
+                    type="text"
+                    value={searchTerm}
+                    onChange={(e) => setSearchTerm(e.target.value)}
+                    placeholder="馬名や騎手名で検索"
+                    className="search-input"
+                  />
+                </div>
+
+                <div className="field">
+                  <label htmlFor="sort-select">並び替え</label>
+                  <select
+                    id="sort-select"
+                    value={sortBy}
+                    onChange={(e) => setSortBy(e.target.value)}
+                  >
+                    <option value="number">馬番順</option>
+                    <option value="odds">オッズ順</option>
+                    <option value="name">名前順</option>
+                  </select>
+                </div>
+              </div>
+
               <div className="horse-card-list">
-                {(currentRace.horses || []).map((horse) => (
+                {filteredHorses.map((horse) => (
                   <button
                     key={horse.number}
                     type="button"
@@ -379,6 +456,9 @@ function App() {
                           <span className="horse-age-sex">{horse.ageSex}</span>
                         )}
                       </span>
+                      {getHorseMark(horse) && (
+                        <span className="horse-mark">{getMarkIcon(getHorseMark(horse))}</span>
+                      )}
                     </div>
 
                     <div className="horse-row-bottom">
@@ -426,7 +506,7 @@ function App() {
                       </div>
                       <div>
                         <span className="info-label">印</span>
-                        <span>{selectedHorse.mark || "なし"}</span>
+                        <span>{selectedHorse.mark ? getMarkIcon(selectedHorse.mark) : "なし"}</span>
                       </div>
                     </div>
                   </div>

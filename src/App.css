@@ -91,6 +91,18 @@ body {
   color: #0f172a;
 }
 
+.search-input {
+  height: 50px;
+  border: 1px solid #cfd8e3;
+  border-radius: 12px;
+  padding: 0 14px;
+  font-size: 17px;
+  font-weight: 700;
+  background: #fff;
+  color: #0f172a;
+  width: 100%;
+}
+
 .field select:disabled {
   background: #f1f5f9;
   color: #94a3b8;
@@ -244,6 +256,10 @@ body {
   font-weight: 800;
   color: #0f172a;
   word-break: break-word;
+}
+
+.horse-mark {
+  margin-left: auto;
 }
 
 .horse-age-sex {
