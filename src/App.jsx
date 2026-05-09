@@ -5,7 +5,6 @@ import { arimaKinen2025 } from "./data/arimaKinen2025";
 import { oukaSho2026 } from "./data/oukaSho2026";
 import { satsukiSho2026 } from "./data/satsukiSho2026";
 import { nhkMileCup2026 } from "./data/nhkMileCup2026";
-import { FaStar, FaCircle, FaCaretUp, FaSquare, FaGem } from "react-icons/fa";
 
 function App() {
   const raceCatalog = [
@@ -104,15 +103,15 @@ function App() {
   const getMarkIcon = (mark) => {
     switch (mark) {
       case "◎":
-        return <FaStar color="#ff0000" size={20} />;
+        return <span style={{ color: "#ff0000", fontSize: "20px", fontWeight: "bold" }}>◎</span>;
       case "○":
-        return <FaCircle color="#0000ff" size={18} />;
+        return <span style={{ color: "#0000ff", fontSize: "18px", fontWeight: "bold" }}>○</span>;
       case "▲":
-        return <FaCaretUp color="#008000" size={18} />;
+        return <span style={{ color: "#008000", fontSize: "18px", fontWeight: "bold" }}>▲</span>;
       case "△":
-        return <FaSquare color="#ff4500" size={16} />;
+        return <span style={{ color: "#ff4500", fontSize: "16px", fontWeight: "bold" }}>△</span>;
       case "☆":
-        return <FaGem color="#800080" size={18} />;
+        return <span style={{ color: "#800080", fontSize: "18px", fontWeight: "bold" }}>☆</span>;
       default:
         return null;
     }
