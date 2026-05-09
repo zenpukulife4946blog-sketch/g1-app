@@ -185,23 +185,23 @@ body {
 }
 
 .mark-red {
-  background: #dc2626;
+  background: #ff0000;
 }
 
 .mark-blue {
-  background: #2563eb;
+  background: #0000ff;
 }
 
 .mark-green {
-  background: #059669;
+  background: #008000;
 }
 
 .mark-orange {
-  background: #d97706;
+  background: #ff4500;
 }
 
 .mark-purple {
-  background: #7c3aed;
+  background: #800080;
 }
 
 .betting-box {

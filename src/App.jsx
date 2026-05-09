@@ -1,6 +1,5 @@
 import { useMemo, useRef, useState } from "react";
 import "./App.css";
-import { nhkMileCup2026 } from "./data/nhkMileCup2026";
 import { osakaHai2026 } from "./data/osakaHai2026";
 import { arimaKinen2025 } from "./data/arimaKinen2025";
 import { oukaSho2026 } from "./data/oukaSho2026";
@@ -9,7 +8,6 @@ import { FaStar, FaCircle, FaCaretUp, FaSquare, FaGem } from "react-icons/fa";
 
 function App() {
   const raceCatalog = [
-    { year: "2026", course: "東京", key: "tokyo", label: "ＮＨＫマイルカップ", data: nhkMileCup2026 },
     { year: "2026", course: "阪神", key: "osaka", label: "大阪杯", data: osakaHai2026 },
     { year: "2026", course: "阪神", key: "ouka", label: "桜花賞", data: oukaSho2026 },
     { year: "2026", course: "中山", key: "satsuki", label: "皐月賞", data: satsukiSho2026 },
@@ -104,15 +102,15 @@ function App() {
   const getMarkIcon = (mark) => {
     switch (mark) {
       case "◎":
-        return <FaStar color="#dc2626" size={20} />;
+        return <FaStar color="#ff0000" size={20} />;
       case "○":
-        return <FaCircle color="#2563eb" size={18} />;
+        return <FaCircle color="#0000ff" size={18} />;
       case "▲":
-        return <FaCaretUp color="#059669" size={18} />;
+        return <FaCaretUp color="#008000" size={18} />;
       case "△":
-        return <FaSquare color="#d97706" size={16} />;
+        return <FaSquare color="#ff4500" size={16} />;
       case "☆":
-        return <FaGem color="#7c3aed" size={18} />;
+        return <FaGem color="#800080" size={18} />;
       default:
         return null;
     }
