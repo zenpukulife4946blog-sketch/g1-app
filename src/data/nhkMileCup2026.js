@@ -16,8 +16,8 @@ export const nhkMileCup2026 = {
   marks: {
     honmei: "◎ 11 アドマイヤクワッズ",
     taikou: "○ 10 エコロアルバ",
-    tanana: "▲ 7 ダイヤモンドノット",
-    renka: "△ 16 アスクイキゴミ",
+    tanana: "△ 7 ダイヤモンドノット",
+    renka: "▲ 16 アスクイキゴミ",
     ana: "☆ 12 アンドゥーリル",
   },
 
