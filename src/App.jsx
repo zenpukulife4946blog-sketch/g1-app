@@ -1,5 +1,6 @@
 import { useMemo, useRef, useState } from "react";
 import "./App.css";
+import { nhkMileCup2026 } from "./data/nhkMileCup2026";
 import { osakaHai2026 } from "./data/osakaHai2026";
 import { arimaKinen2025 } from "./data/arimaKinen2025";
 import { oukaSho2026 } from "./data/oukaSho2026";
@@ -8,6 +9,7 @@ import { FaStar, FaCircle, FaCaretUp, FaSquare, FaGem } from "react-icons/fa";
 
 function App() {
   const raceCatalog = [
+    { year: "2026", course: "東京", key: "tokyo", label: "ＮＨＫマイルカップ", data: nhkMileCup2026 },
     { year: "2026", course: "阪神", key: "osaka", label: "大阪杯", data: osakaHai2026 },
     { year: "2026", course: "阪神", key: "ouka", label: "桜花賞", data: oukaSho2026 },
     { year: "2026", course: "中山", key: "satsuki", label: "皐月賞", data: satsukiSho2026 },
