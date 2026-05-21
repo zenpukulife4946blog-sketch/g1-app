@@ -381,12 +381,29 @@ body {
   color: #475569;
 }
 
+.detail-summary {
+  border: 1px solid #dbe2ea;
+  border-radius: 14px;
+  padding: 18px;
+  background: #f8fafc;
+  text-align: left;
+}
+
+.detail-summary .info-label {
+  display: inline-flex;
+  margin-bottom: 8px;
+  color: #334155;
+  font-size: 14px;
+}
+
 .detail-summary p {
-  margin: 8px 0 0;
-  line-height: 1.9;
-  font-size: 15px;
-  color: #111827;
+  margin: 0;
+  max-width: 68ch;
+  line-height: 2;
+  font-size: 16px;
+  color: #0f172a;
   font-weight: 600;
+  overflow-wrap: anywhere;
 }
 
 .empty-message {
@@ -475,6 +492,15 @@ body {
 
   .detail-title {
     font-size: 19px;
+  }
+
+  .detail-summary {
+    padding: 16px;
+  }
+
+  .detail-summary p {
+    line-height: 1.95;
+    font-size: 15px;
   }
 
   .horse-card-list {
