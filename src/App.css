@@ -91,6 +91,10 @@ body {
   color: #0f172a;
 }
 
+.field select {
+  width: 100%;
+}
+
 .search-input {
   height: 50px;
   border: 1px solid #cfd8e3;
@@ -402,6 +406,25 @@ body {
 }
 
 @media (max-width: 768px) {
+  .filters {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .button-field {
+    padding-top: 4px;
+  }
+
+  .button-field label {
+    display: none;
+  }
+
+  .field select,
+  .load-button,
+  .search-input {
+    width: 100%;
+  }
+
   .horse-card-list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -426,13 +449,8 @@ body {
     font-size: 21px;
   }
 
-  .filters {
-    grid-template-columns: 1fr;
-  }
-
   .field select,
   .load-button {
-    width: 100%;
     font-size: 16px;
   }
 
