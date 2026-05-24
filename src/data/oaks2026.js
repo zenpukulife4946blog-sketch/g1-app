@@ -36,11 +36,11 @@ export const oaks2026 = {
       name: "ミツカネベネラ",
       ageSex: "牝3",
       jockey: "横山和生",
-      style: "未定",
-      odds: null,
+      style: "先行",
+      odds: 301.1,
       mark: "",
       comment:
-        "東京経験は豊富。最内枠を生かしてロスなく立ち回れれば浮上の余地。",
+        "最内枠から前々で運べるタイプ。ロスなく立ち回れば大穴で一考。",
     },
     {
       frame: 1,
@@ -48,11 +48,11 @@ export const oaks2026 = {
       name: "レイクラシック",
       ageSex: "牝3",
       jockey: "M.ディー",
-      style: "未定",
-      odds: null,
+      style: "差し",
+      odds: 86.4,
       mark: "",
       comment:
-        "距離経験は魅力。内の偶数枠から折り合って運べれば粘り込みも。",
+        "中団から脚を使う形。距離経験を生かして消耗戦で浮上狙う。",
     },
     {
       frame: 2,
@@ -60,11 +60,11 @@ export const oaks2026 = {
       name: "アランカール",
       ageSex: "牝3",
       jockey: "武豊",
-      style: "未定",
-      odds: null,
+      style: "追込",
+      odds: 12.0,
       mark: "",
       comment:
-        "母はオークス馬シンハライト。距離延長で良さが出れば一気に戴冠も。",
+        "母はオークス馬シンハライト。末脚勝負に徹すれば戴冠まである。",
     },
     {
       frame: 2,
@@ -72,11 +72,11 @@ export const oaks2026 = {
       name: "ロングトールサリー",
       ageSex: "牝3",
       jockey: "戸崎圭太",
-      style: "未定",
-      odds: null,
+      style: "逃げ",
+      odds: 152.8,
       mark: "",
       comment:
-        "芝2000mで勝ち上がった持久力型。東京2400mで変わり身に期待。",
+        "前で運べる脚質は魅力。東京2400mで息を入れられるかが鍵。",
     },
     {
       frame: 3,
@@ -84,11 +84,11 @@ export const oaks2026 = {
       name: "リアライズルミナス",
       ageSex: "牝3",
       jockey: "津村明秀",
-      style: "未定",
-      odds: null,
+      style: "差し",
+      odds: 80.6,
       mark: "",
       comment:
-        "フローラS3着で東京適性を証明。距離延長をこなせば馬券圏内も。",
+        "フローラS3着で東京適性を証明。中団差しがハマれば怖い。",
     },
     {
       frame: 3,
@@ -96,11 +96,11 @@ export const oaks2026 = {
       name: "ロンギングセリーヌ",
       ageSex: "牝3",
       jockey: "石橋脩",
-      style: "未定",
-      odds: null,
+      style: "逃げ",
+      odds: 218.2,
       mark: "",
       comment:
-        "桜花賞は大敗も中距離実績はある。流れが向けば巻き返しの余地。",
+        "先手主張なら展開の鍵を握る一頭。粘り込みにはペース管理が必要。",
     },
     {
       frame: 4,
@@ -108,11 +108,11 @@ export const oaks2026 = {
       name: "スタニングレディ",
       ageSex: "牝3",
       jockey: "三浦皇成",
-      style: "未定",
-      odds: null,
+      style: "差し",
+      odds: 213.2,
       mark: "",
       comment:
-        "東京芝1800mで新馬勝ち。距離延長と展開次第で穴の一考。",
+        "中団から脚を溜める形。東京経験を生かして一発を狙いたい。",
     },
     {
       frame: 4,
@@ -120,11 +120,11 @@ export const oaks2026 = {
       name: "スマートプリエール",
       ageSex: "牝3",
       jockey: "原優介",
-      style: "未定",
-      odds: null,
-      mark: "",
+      style: "差し",
+      odds: 32.5,
+      mark: "✕",
       comment:
-        "フラワーC勝ち馬。折り合いがつけば東京2400mでも怖い存在。",
+        "フラワーC勝ち馬。中団で折り合えば距離延長でも侮れない。",
     },
     {
       frame: 5,
@@ -132,11 +132,11 @@ export const oaks2026 = {
       name: "トリニティ",
       ageSex: "牝3",
       jockey: "西村淳也",
-      style: "未定",
-      odds: null,
+      style: "逃げ",
+      odds: 46.1,
       mark: "",
       comment:
-        "矢車賞勝ちで距離対応を示した一頭。母仔制覇の夢もかかる。",
+        "前で運べるスタミナ型。矢車賞勝ちの距離対応力は魅力十分。",
     },
     {
       frame: 5,
@@ -144,11 +144,11 @@ export const oaks2026 = {
       name: "スターアニス",
       ageSex: "牝3",
       jockey: "松山弘平",
-      style: "未定",
-      odds: null,
-      mark: "",
+      style: "差し",
+      odds: 3.1,
+      mark: "▲",
       comment:
-        "阪神JF、桜花賞を制した世代女王。距離をこなせば二冠へ最短。",
+        "阪神JF、桜花賞を制した世代女王。距離克服なら二冠へ最短。",
     },
     {
       frame: 6,
@@ -156,11 +156,11 @@ export const oaks2026 = {
       name: "アメティスタ",
       ageSex: "牝3",
       jockey: "横山武史",
-      style: "未定",
-      odds: null,
+      style: "先行",
+      odds: 114.9,
       mark: "",
       comment:
-        "中距離経験があり距離延長は歓迎材料。展開ひとつで穴浮上も。",
+        "好位で運べる中距離型。距離延長と展開利が噛み合えば穴候補。",
     },
     {
       frame: 6,
@@ -168,11 +168,11 @@ export const oaks2026 = {
       name: "ドリームコア",
       ageSex: "牝3",
       jockey: "C.ルメール",
-      style: "未定",
-      odds: null,
-      mark: "",
+      style: "差し",
+      odds: 7.0,
+      mark: "〇",
       comment:
-        "東京コースで実績十分。桜花賞敗戦から舞台替わりで反撃狙う。",
+        "東京実績と鞍上が魅力。中団からスターアニスを見て運べる。",
     },
     {
       frame: 7,
@@ -180,11 +180,11 @@ export const oaks2026 = {
       name: "エンネ",
       ageSex: "牝3",
       jockey: "坂井瑠星",
-      style: "未定",
-      odds: null,
-      mark: "",
+      style: "追込",
+      odds: 6.9,
+      mark: "△",
       comment:
-        "フローラS2着で東京適性を証明。立ち回り次第で上位争い可能。",
+        "フローラS2着で東京適性十分。外から長く脚を使えれば上位争い。",
     },
     {
       frame: 7,
@@ -192,11 +192,11 @@ export const oaks2026 = {
       name: "ソルパッサーレ",
       ageSex: "牝3",
       jockey: "浜中俊",
-      style: "未定",
-      odds: null,
+      style: "先行",
+      odds: 199.9,
       mark: "",
       comment:
-        "忘れな草賞組。芝2000m経験を生かし、持久力勝負なら出番あり。",
+        "好位で流れに乗れるタイプ。持久力勝負でどこまで粘れるか。",
     },
     {
       frame: 7,
@@ -204,11 +204,11 @@ export const oaks2026 = {
       name: "アンジュドジョワ",
       ageSex: "牝3",
       jockey: "岩田望来",
-      style: "未定",
-      odds: null,
+      style: "先行",
+      odds: 26.6,
       mark: "",
       comment:
-        "君子蘭賞勝ちからの参戦。底を見せておらず距離延長で魅力。",
+        "好位追走から粘り込む形が理想。人気以上に不気味な存在。",
     },
     {
       frame: 8,
@@ -216,11 +216,11 @@ export const oaks2026 = {
       name: "ジュウリョクピエロ",
       ageSex: "牝3",
       jockey: "今村聖奈",
-      style: "未定",
-      odds: null,
+      style: "差し",
+      odds: 7.5,
       mark: "",
       comment:
-        "忘れな草賞を勝って勢い十分。芝中距離での上昇力は侮れない。",
+        "忘れな草賞勝ちの勢いあり。持続力勝負なら一気の台頭も。",
     },
     {
       frame: 8,
@@ -228,11 +228,11 @@ export const oaks2026 = {
       name: "スウィートハピネス",
       ageSex: "牝3",
       jockey: "高杉吏麒",
-      style: "未定",
-      odds: null,
+      style: "追込",
+      odds: 84.4,
       mark: "",
       comment:
-        "エルフィンS勝ち馬。外枠から折り合って末脚を生かしたい。",
+        "後方から末脚勝負。外枠でスムーズに運べれば穴の余地あり。",
     },
     {
       frame: 8,
@@ -240,11 +240,11 @@ export const oaks2026 = {
       name: "ラフターラインズ",
       ageSex: "牝3",
       jockey: "D.レーン",
-      style: "未定",
-      odds: null,
-      mark: "",
+      style: "追込",
+      odds: 3.6,
+      mark: "◎",
       comment:
-        "フローラS勝ち馬。東京で切れる末脚を発揮できれば戴冠候補。",
-    },
-  ],
+        "フローラS勝ち馬。大外から末脚を伸ばせれば戴冠候補筆頭級。",
+
+    },],
 };
