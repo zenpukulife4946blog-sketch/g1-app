@@ -6,11 +6,13 @@ import { oukaSho2026 } from "./data/oukaSho2026";
 import { satsukiSho2026 } from "./data/satsukiSho2026";
 import { nhkMileCup2026 } from "./data/nhkMileCup2026";
 import { victoriaMile2026 } from "./data/victoriaMile2026";
+import { oaks2026 } from "./data/oaks2026";
 function App() {
   const raceCatalog = [
     { year: "2026", course: "阪神", key: "osaka", label: "大阪杯", data: osakaHai2026 },
     { year: "2026", course: "阪神", key: "ouka", label: "桜花賞", data: oukaSho2026 },
     { year: "2026", course: "中山", key: "satsuki", label: "皐月賞", data: satsukiSho2026 },
+    { year: "2026", course: "東京", key: "oaks", label: "オークス", data: oaks2026 },
     { year: "2026", course: "東京", key: "nhk", label: "NHKマイルカップ", data: nhkMileCup2026 },
     { year: "2026", course: "東京", key: "victoria", label: "ヴィクトリアマイル", data: victoriaMile2026 },
     { year: "2025", course: "中山", key: "arima", label: "有馬記念", data: arimaKinen2025 },
