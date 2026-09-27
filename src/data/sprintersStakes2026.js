@@ -27,7 +27,7 @@ export const sprintersStakes2026 = {
     type: "3連単軸2頭マルチ",
     first: [13],
     second: [11],
-    third: [3],[6],[8],[9],[10],[14],[15],[16],
+    third: [3, 6, 8, 9, 10, 14, 15, 16],
     comment: "軸を信頼3着は広めに買ってみました",
   },
 
