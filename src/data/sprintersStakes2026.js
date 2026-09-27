@@ -28,6 +28,9 @@ export const sprintersStakes2026 = {
     first: [13],
     second: [11],
     third: [3, 6, 8, 9, 10, 14, 15, 16],
+    points: "48点",
+    unit: "各100円",
+    total: "4,800円",
     comment: "軸を信頼3着は広めに買ってみました",
   },
 
