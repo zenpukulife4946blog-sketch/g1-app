@@ -1,0 +1,155 @@
+{"kind":"deck","id":"pr/le6qli","name":"Deck"}
+{"kind":"layout","layoutId":"/ppt/slideMasters/slideMaster1.xml","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"/ppt/slideLayouts/slideLayout1.xml","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/y90nupkv","slide":1,"title":"自己紹介と、地元・鹿児島の紹介","textShapes":5}
+{"kind":"shape","id":"sh/wn6dc7eh","slide":1,"name":"Cover contrast overlay","bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/fu94fe98","slide":1,"name":"正方形/長方形 7","text":"自己紹介と、地元・鹿児島の紹介","textPreview":"自己紹介と、地元・鹿児島の紹介","textChars":15,"textLines":1,"bbox":[76,60,1128,92]}
+{"kind":"textbox","id":"sh/547294r6","slide":1,"name":"正方形/長方形 1","text":"01 / 10","textPreview":"01 / 10","textChars":7,"textLines":1,"bbox":[1092,654,120,30]}
+{"kind":"textbox","id":"sh/k3yl0zql","slide":1,"name":"正方形/長方形 2","text":"善福 徳行\n","textPreview":"善福 徳行 |","textChars":6,"textLines":2,"bbox":[76,221,700,110]}
+{"kind":"textbox","id":"sh/7qp4be9c","slide":1,"name":"正方形/長方形 3","text":"（ゼンプク　ノリユキ）","textPreview":"（ゼンプク　ノリユキ）","textChars":11,"textLines":1,"bbox":[80,349,620,60]}
+{"kind":"textbox","id":"sh/65g3298r","slide":1,"name":"正方形/長方形 4","text":"関西大学MONOラボ  ／  2026年11月3日","textPreview":"関西大学MONOラボ  ／  2026年11月3日","textChars":25,"textLines":1,"bbox":[80,437,620,50]}
+{"kind":"image","id":"im/ipofexcz","slide":1,"name":"図 12","bbox":[0,0,1280,720]}
+{"kind":"image","id":"im/5cze9svq","slide":1,"name":"図 21","bbox":[0,688,1280,32]}
+{"kind":"image","id":"im/kr6xgnu5","slide":1,"name":"図 10","bbox":[822.38,206.35,243.62,365.44]}
+{"kind":"notes","id":"nt/y90nupkv","slide":1,"text":"冒頭例：善福徳行です。今日は、これまでの仕事と趣味、そして地元・鹿児島を紹介します。所属部署と発表日を記入してください。氏名・職種は会話内の情報を使用。\n\n参考：https://zenpuku-life-4946.com/\nテンプレートの使い方：角括弧の欄をご自身の情報へ変更。写真欄は削除して「挿入＞画像」で写真を配置。発表前に記入例を確認。\n\n表紙写真：鹿児島県観光サイト「鹿児島で楽しむ絶景釣り体験」 https://www.kagoshima-kankou.com/feature/fishing\n写真URL：https://www.kagoshima-kankou.com/storage/special_feature_paragraphs/7508/responsive_images/Q4LqPzc0aRIacXOxELNHkYRgrBdDkEpjvXJ2ud9Z__1673_1115.jpg\n帯：藍色の織物をイメージしたAI生成のオリジナルデザイン。大島紬の実物柄の再現ではありません。"}
+{"kind":"slide","id":"sl/hwbqtkby","slide":2,"title":"これまでの仕事と、今取り組んでいること","textShapes":11}
+{"kind":"textbox","id":"sh/9wnqhczy","slide":2,"name":"正方形/長方形 10","text":"これまでの仕事と、今取り組んでいること","textPreview":"これまでの仕事と、今取り組んでいること","textChars":19,"textLines":1,"bbox":[76,57,1128,95]}
+{"kind":"textbox","id":"sh/9072xkry","slide":2,"name":"正方形/長方形 1","text":"02 / 10","textPreview":"02 / 10","textChars":7,"textLines":1,"bbox":[1092,654,120,30]}
+{"kind":"textbox","id":"sh/ozy1ofad","slide":2,"name":"正方形/長方形 2","text":"これまでの仕事","textPreview":"これまでの仕事","textChars":7,"textLines":1,"bbox":[76,183,626,44]}
+{"kind":"textbox","id":"sh/b29kza94","slide":2,"name":"正方形/長方形 3","text":"システムの運用・保守、SE業務\n自治体の情報システム業務を経験","textPreview":"システムの運用・保守、SE業務 | 自治体の情報システム業務を経験","textChars":31,"textLines":2,"bbox":[76,229,626,66]}
+{"kind":"textbox","id":"sh/a10jqpsj","slide":2,"name":"正方形/長方形 4","text":"現在の関心","textPreview":"現在の関心","textChars":5,"textLines":1,"bbox":[76,309,626,44]}
+{"kind":"textbox","id":"sh/x4r21kru","slide":2,"name":"正方形/長方形 5","text":"PythonやAIを使ったアプリ開発、バイブコーディング","textPreview":"PythonやAIを使ったアプリ開発、バイブコーディング","textChars":28,"textLines":1,"bbox":[76,355,626,66]}
+{"kind":"textbox","id":"sh/w3i1sfa9","slide":2,"name":"正方形/長方形 6","text":"これからの目標","textPreview":"これからの目標","textChars":7,"textLines":1,"bbox":[76,435,626,44]}
+{"kind":"textbox","id":"sh/r65knqtk","slide":2,"name":"正方形/長方形 7","text":"MONOラボを中心にAIを駆使して得意なプログラミングを使いながら業務改善、効率化を行い会社に貢献します。\n","textPreview":"MONOラボを中心にAIを駆使して得意なプログラミングを使いながら業務改善、効率化を行い会社に貢献します。 |","textChars":54,"textLines":2,"bbox":[76,481,626,114]}
+{"kind":"textbox","id":"sh/ove9o7yd","slide":2,"name":"正方形/長方形 9","text":"仕事や制作アプリの写真","textPreview":"仕事や制作アプリの写真","textChars":11,"textLines":1,"bbox":[772,346,402,100]}
+{"kind":"textbox","id":"sh/nu58f2hs","slide":2,"name":"Mediax header","text":"Mediax","textPreview":"Mediax","textChars":6,"textLines":1,"bbox":[1066,18,144,38]}
+{"kind":"shape","id":"sh/wjy9sry9","slide":2,"name":"Title underline","bbox":[76,153,1128,0]}
+{"kind":"shape","id":"sh/xk7qlczu","slide":2,"name":"Title underline accent","bbox":[76,153,300,0]}
+{"kind":"textbox","id":"sh/cnupgny5","slide":2,"name":"正方形/長方形 17","text":"URL:https://g1-app.vercel.app/","textPreview":"URL:https://g1-app.vercel.app/","textChars":30,"textLines":1,"bbox":[702,624.77,338.19,39]}
+{"kind":"image","id":"im/mpcv2l0b","slide":2,"name":"図 25","bbox":[0,688,1280,32]}
+{"kind":"image","id":"im/q1cfel4j","slide":2,"name":"図 15","bbox":[712.16,163.23,338.19,470.55]}
+{"kind":"notes","id":"nt/hwbqtkby","slide":2,"text":"仕事の経験は会話で提供された情報。順番・在籍期間・担当範囲はご自身で確認してください。制作アプリの画面を入れると、取り組みが伝わりやすくなります。\n\n参考：https://zenpuku-life-4946.com/\nテンプレートの使い方：角括弧の欄をご自身の情報へ変更。写真欄は削除して「挿入＞画像」で写真を配置。発表前に記入例を確認。"}
+{"kind":"slide","id":"sl/ofy9wn61","slide":3,"title":"休日はドラムとゴルフと観光を楽しんでいます","textShapes":12}
+{"kind":"textbox","id":"sh/m1c3mlsn","slide":3,"name":"正方形/長方形 10","text":"休日はドラムとゴルフと観光を楽しんでいます","textPreview":"休日はドラムとゴルフと観光を楽しんでいます","textChars":21,"textLines":1,"bbox":[76,57,1128,95]}
+{"kind":"textbox","id":"sh/cza94vmx","slide":3,"name":"正方形/長方形 1","text":"03 / 10","textPreview":"03 / 10","textChars":7,"textLines":1,"bbox":[1092,654,120,30]}
+{"kind":"textbox","id":"sh/d0jax03i","slide":3,"name":"正方形/長方形 2","text":"ドラム","textPreview":"ドラム","textChars":3,"textLines":1,"bbox":[76,183,626,44]}
+{"kind":"textbox","id":"sh/298ryl4v","slide":3,"name":"正方形/長方形 3","text":"レッスンと自宅練習を継続","textPreview":"レッスンと自宅練習を継続","textChars":12,"textLines":1,"bbox":[76,229,626,66]}
+{"kind":"textbox","id":"sh/3ah8rqlg","slide":3,"name":"正方形/長方形 4","text":"ゴルフ","textPreview":"ゴルフ","textChars":3,"textLines":1,"bbox":[76,309,626,44]}
+{"kind":"textbox","id":"sh/obq90bml","slide":3,"name":"正方形/長方形 5","text":"100切りを目標にしています。練習はたまに","textPreview":"100切りを目標にしています。練習はたまに","textChars":21,"textLines":1,"bbox":[76,355,626,66]}
+{"kind":"textbox","id":"sh/pcjqtg36","slide":3,"name":"正方形/長方形 6","text":"気軽に声をかけてください","textPreview":"気軽に声をかけてください","textChars":12,"textLines":1,"bbox":[76,552.91,626,44]}
+{"kind":"textbox","id":"sh/m5cra54z","slide":3,"name":"正方形/長方形 7","text":"音楽や地元の話が、会話のきっかけにでもいいです。","textPreview":"音楽や地元の話が、会話のきっかけにでもいいです。","textChars":24,"textLines":1,"bbox":[76,598.91,713.87,66]}
+{"kind":"textbox","id":"sh/n2l4fq98","slide":3,"name":"正方形/長方形 9","text":"ドラム演奏・練習中の写真","textPreview":"ドラム演奏・練習中の写真","textChars":12,"textLines":1,"bbox":[772,346,402,100]}
+{"kind":"textbox","id":"sh/83ulovat","slide":3,"name":"Mediax header","text":"Mediax","textPreview":"Mediax","textChars":6,"textLines":1,"bbox":[1066,18,144,38]}
+{"kind":"shape","id":"sh/v6l4jq94","slide":3,"name":"Title underline","bbox":[76,153,1128,0]}
+{"kind":"shape","id":"sh/a5c3ql8z","slide":3,"name":"Title underline accent","bbox":[76,153,300,0]}
+{"kind":"textbox","id":"sh/i9w3u58v","slide":3,"name":"正方形/長方形 18","text":"神社・仏閣巡り","textPreview":"神社・仏閣巡り","textChars":7,"textLines":1,"bbox":[78,416.92,626,44]}
+{"kind":"textbox","id":"sh/f29gbyx0","slide":3,"name":"正方形/長方形 20","text":"神社参拝、仏像巡りが好きです。","textPreview":"神社参拝、仏像巡りが好きです。","textChars":15,"textLines":1,"bbox":[78,462.92,626,66]}
+{"kind":"image","id":"im/n2tc3y1g","slide":3,"name":"図 25","bbox":[0,688,1280,32]}
+{"kind":"image","id":"im/21kvutkb","slide":3,"name":"7D49F135","bbox":[575.86,162.32,626.14,352.2]}
+{"kind":"notes","id":"nt/ofy9wn61","slide":3,"text":"ドラムとブログは本人ブログのカテゴリおよび会話の情報を参照。好きな曲や最近の練習を短く話してください。Instagramの投稿本文・画像は取得できていません。\n\n参考：https://zenpuku-life-4946.com/\nhttps://www.instagram.com/zentoku_n/\nテンプレートの使い方：角括弧の欄をご自身の情報へ変更。写真欄は削除して「挿入＞画像」で写真を配置。発表前に記入例を確認。"}
+{"kind":"slide","id":"sl/jyx0ra1s","slide":4,"title":"私の地元、鹿児島","textShapes":9}
+{"kind":"textbox","id":"sh/5cva1cfq","slide":4,"name":"正方形/長方形 10","text":"私の地元、鹿児島","textPreview":"私の地元、鹿児島","textChars":8,"textLines":1,"bbox":[76,57,1128,95]}
+{"kind":"textbox","id":"sh/1cj2d8b6","slide":4,"name":"正方形/長方形 1","text":"04 / 10","textPreview":"04 / 10","textChars":7,"textLines":1,"bbox":[1092,654,120,30]}
+{"kind":"textbox","id":"sh/0ba143al","slide":4,"name":"正方形/長方形 2","text":"九州の南にある県","textPreview":"九州の南にある県","textChars":8,"textLines":1,"bbox":[76,183,626,44]}
+{"kind":"textbox","id":"sh/rm1k7yt4","slide":4,"name":"正方形/長方形 3","text":"鹿児島市の街並みと桜島","textPreview":"鹿児島市の街並みと桜島","textChars":11,"textLines":1,"bbox":[76,229,626,66]}
+{"kind":"textbox","id":"sh/ql8jytsj","slide":4,"name":"正方形/長方形 4","text":"楽しみ方はいろいろ","textPreview":"楽しみ方はいろいろ","textChars":9,"textLines":1,"bbox":[76,309,626,44]}
+{"kind":"textbox","id":"sh/doj29oba","slide":4,"name":"正方形/長方形 5","text":"風景、地元の味（黒豚、黒牛、黒薩摩鳥）、温泉、街歩き","textPreview":"風景、地元の味（黒豚、黒牛、黒薩摩鳥）、温泉、街歩き","textChars":26,"textLines":1,"bbox":[76,355,626,66]}
+{"kind":"textbox","id":"sh/sna103ap","slide":4,"name":"正方形/長方形 6","text":"今日は身近な鹿児島をご紹介","textPreview":"今日は身近な鹿児島をご紹介","textChars":13,"textLines":1,"bbox":[76,435,626,44]}
+{"kind":"textbox","id":"sh/3ihk3et8","slide":4,"name":"正方形/長方形 7","text":"鹿児島市を中心に、県内の魅力も","textPreview":"鹿児島市を中心に、県内の魅力も","textChars":15,"textLines":1,"bbox":[76,481,626,66]}
+{"kind":"textbox","id":"sh/jadsz2xk","slide":4,"name":"Mediax header","text":"Mediax","textPreview":"Mediax","textChars":6,"textLines":1,"bbox":[1066,18,144,38]}
+{"kind":"shape","id":"sh/w72947yt","slide":4,"name":"Title underline","bbox":[76,153,1128,0]}
+{"kind":"shape","id":"sh/x8vaxsfe","slide":4,"name":"Title underline accent","bbox":[76,153,300,0]}
+{"kind":"image","id":"im/tcvm5gji","slide":4,"name":"図 25","bbox":[0,688,1280,32]}
+{"kind":"image","id":"im/sbm5cbix","slide":4,"name":"図 19","bbox":[746.82,183,319.18,425.57]}
+{"kind":"notes","id":"nt/jyx0ra1s","slide":4,"text":"鹿児島県全体と鹿児島市を区別して説明してください。地図を使う場合は正確な地図画像を挿入。\n\n参考：https://www.kagoshima-kankou.com/\nテンプレートの使い方：角括弧の欄をご自身の情報へ変更。写真欄は削除して「挿入＞画像」で写真を配置。発表前に記入例を確認。"}
+{"kind":"slide","id":"sl/i107q5of","slide":5,"title":"西郷隆盛と明治遺産","textShapes":9}
+{"kind":"textbox","id":"sh/x4vedgvm","slide":5,"name":"正方形/長方形 10","text":"西郷隆盛と明治遺産","textPreview":"西郷隆盛と明治遺産","textChars":9,"textLines":1,"bbox":[76,57,1128,95]}
+{"kind":"textbox","id":"sh/dgbulwnm","slide":5,"name":"正方形/長方形 1","text":"05 / 10","textPreview":"05 / 10","textChars":7,"textLines":1,"bbox":[1092,654,120,30]}
+{"kind":"textbox","id":"sh/cf2tcr61","slide":5,"name":"正方形/長方形 2","text":"鹿児島のシンボル","textPreview":"鹿児島のシンボル","textChars":8,"textLines":1,"bbox":[76,183,626,44]}
+{"kind":"textbox","id":"sh/z2tcnm5s","slide":5,"name":"正方形/長方形 3","text":"なんといっても西郷隆盛。鹿児島では大久保さんより\n西郷さんをとても慕っています。\n没後150年で鹿児島盛り上がって\nます！！","textPreview":"なんといっても西郷隆盛。鹿児島では大久保さんより | 西郷さんをとても慕っています。 | 没後150年で鹿児島盛り上がって | ます！！","textChars":62,"textLines":4,"bbox":[76,229,626,140]}
+{"kind":"textbox","id":"sh/yhkbe1o7","slide":5,"name":"正方形/長方形 4","text":"磯庭園から楽しめる景色","textPreview":"磯庭園から楽しめる景色","textChars":11,"textLines":1,"bbox":[76,378.38,626,44]}
+{"kind":"textbox","id":"sh/l4bupwny","slide":5,"name":"正方形/長方形 5","text":"磯庭園は島津家の別邸です。\n桜島と海が見える風景","textPreview":"磯庭園は島津家の別邸です。 | 桜島と海が見える風景","textChars":24,"textLines":2,"bbox":[76,429.5,626,66]}
+{"kind":"textbox","id":"sh/032tgr6d","slide":5,"name":"正方形/長方形 6","text":"磯庭園は世界文化遺産です。","textPreview":"磯庭園は世界文化遺産です。","textChars":13,"textLines":1,"bbox":[76,515.96,626,44]}
+{"kind":"textbox","id":"sh/n6dcr65o","slide":5,"name":"正方形/長方形 7","text":"この一帯を含めユネスコの世界文化遺産\nになっています。","textPreview":"この一帯を含めユネスコの世界文化遺産 | になっています。","textChars":27,"textLines":2,"bbox":[76,561.5,476.91,66]}
+{"kind":"textbox","id":"sh/v2twb6dw","slide":5,"name":"Mediax header","text":"Mediax","textPreview":"Mediax","textChars":6,"textLines":1,"bbox":[1066,18,144,38]}
+{"kind":"shape","id":"sh/k7mxovud","slide":5,"name":"Title underline","bbox":[76,153,1128,0]}
+{"kind":"shape","id":"sh/58vehgvy","slide":5,"name":"Title underline accent","bbox":[76,153,300,0]}
+{"kind":"image","id":"im/5ove5g3m","slide":5,"name":"図 25","bbox":[0,688,1280,32]}
+{"kind":"image","id":"im/4nmdwbm1","slide":5,"name":"図 19","bbox":[591.48,295,612.52,344.73]}
+{"kind":"image","id":"im/vitwz65k","slide":5,"name":"図 21","bbox":[373.89,248.72,307.83,217.66]}
+{"kind":"notes","id":"nt/i107q5of","slide":5,"text":"桜島が活火山であることは鹿児島県公式観光サイトで確認。思い出・灰の話はご自身の実体験だけを補ってください。\n\n参考：https://www.kagoshima-kankou.com/guide\nテンプレートの使い方：角括弧の欄をご自身の情報へ変更。写真欄は削除して「挿入＞画像」で写真を配置。発表前に記入例を確認。"}
+{"kind":"slide","id":"sl/x8f69ofe","slide":6,"title":"鹿児島で味わいたい、地元の食","textShapes":9}
+{"kind":"textbox","id":"sh/w32twb6l","slide":6,"name":"正方形/長方形 10","text":"鹿児島で味わいたい、地元の食","textPreview":"鹿児島で味わいたい、地元の食","textChars":14,"textLines":1,"bbox":[76,57,1128,95]}
+{"kind":"textbox","id":"sh/yhg7epsj","slide":6,"name":"正方形/長方形 1","text":"06 / 10","textPreview":"06 / 10","textChars":7,"textLines":1,"bbox":[1092,654,120,30]}
+{"kind":"textbox","id":"sh/zi98nu94","slide":6,"name":"正方形/長方形 2","text":"黒豚・さつま揚げ","textPreview":"黒豚・さつま揚げ","textChars":8,"textLines":1,"bbox":[76,183,626,44]}
+{"kind":"textbox","id":"sh/87ipkzal","slide":6,"name":"正方形/長方形 3","text":"鹿児島を紹介する定番の味","textPreview":"鹿児島を紹介する定番の味","textChars":12,"textLines":1,"bbox":[76,229,626,66]}
+{"kind":"textbox","id":"sh/98rqt4r6","slide":6,"name":"正方形/長方形 4","text":"ラーメンや甘いものも","textPreview":"ラーメンや甘いものも","textChars":10,"textLines":1,"bbox":[76,309,626,44]}
+{"kind":"textbox","id":"sh/ml07i9sv","slide":6,"name":"正方形/長方形 5","text":"お酒飲んだ後の天文館のり一の\nラーメンがすきです。かるかんも好き","textPreview":"お酒飲んだ後の天文館のり一の | ラーメンがすきです。かるかんも好き","textChars":32,"textLines":2,"bbox":[76,355,626,66]}
+{"kind":"textbox","id":"sh/7m98ru9g","slide":6,"name":"正方形/長方形 6","text":"私の一押し","textPreview":"私の一押し","textChars":5,"textLines":1,"bbox":[76,435,626,44]}
+{"kind":"textbox","id":"sh/oryp8fah","slide":6,"name":"正方形/長方形 7","text":"鹿児島人の中で一番美味しい\nとされるとんかつ屋竹亭","textPreview":"鹿児島人の中で一番美味しい | とされるとんかつ屋竹亭","textChars":25,"textLines":2,"bbox":[76,481,626,66]}
+{"kind":"textbox","id":"sh/u1kbu1ov","slide":6,"name":"Mediax header","text":"Mediax","textPreview":"Mediax","textChars":6,"textLines":1,"bbox":[1066,18,144,38]}
+{"kind":"shape","id":"sh/5svutgni","slide":6,"name":"Title underline","bbox":[76,153,1128,0]}
+{"kind":"shape","id":"sh/47mt0b6x","slide":6,"name":"Title underline accent","bbox":[76,153,300,0]}
+{"kind":"image","id":"im/kvatojut","slide":6,"name":"図 25","bbox":[0,688,1280,32]}
+{"kind":"image","id":"im/lw3uh4be","slide":6,"name":"図 15","bbox":[522.06,421,277.07,221.39]}
+{"kind":"image","id":"im/a5sbipcr","slide":6,"name":"図 17","bbox":[824.65,417.87,334.85,255]}
+{"kind":"image","id":"im/b61sbutc","slide":6,"name":"図 19","bbox":[522.06,152,390.42,254.21]}
+{"kind":"notes","id":"nt/x8f69ofe","slide":6,"text":"黒豚などの紹介は県公式観光サイトのグルメ案内を参考。店名・感想はご自身で記入。価格や営業時間は変わるためテンプレートには掲載していません。\n\n参考：https://www.kagoshima-kankou.com/\nhttps://zenpuku-life-4946.com/\nテンプレートの使い方：角括弧の欄をご自身の情報へ変更。写真欄は削除して「挿入＞画像」で写真を配置。発表前に記入例を確認。"}
+{"kind":"slide","id":"sl/gnmp4jqx","slide":7,"title":"焼酎も、鹿児島の文化のひとつ","textShapes":9}
+{"kind":"textbox","id":"sh/a9ojq5kz","slide":7,"name":"正方形/長方形 10","text":"焼酎も、鹿児島の文化のひとつ","textPreview":"焼酎も、鹿児島の文化のひとつ","textChars":14,"textLines":1,"bbox":[76,57,1128,95]}
+{"kind":"textbox","id":"sh/cb2tkvap","slide":7,"name":"正方形/長方形 1","text":"07 / 10","textPreview":"07 / 10","textChars":7,"textLines":1,"bbox":[1092,654,120,30]}
+{"kind":"textbox","id":"sh/dcbud0ra","slide":7,"name":"正方形/長方形 2","text":"鹿児島と焼酎","textPreview":"鹿児島と焼酎","textChars":6,"textLines":1,"bbox":[76,183,626,44]}
+{"kind":"textbox","id":"sh/ydkbm5sv","slide":7,"name":"正方形/長方形 3","text":"地元の食とあわせて紹介したい文化。\n鹿児島で酒と言えば芋焼酎です。","textPreview":"地元の食とあわせて紹介したい文化。 | 鹿児島で酒と言えば芋焼酎です。","textChars":33,"textLines":2,"bbox":[76,229,626,66]}
+{"kind":"textbox","id":"sh/zedcfa9g","slide":7,"name":"正方形/長方形 4","text":"楽しみ方の話題","textPreview":"楽しみ方の話題","textChars":7,"textLines":1,"bbox":[76,309,626,44]}
+{"kind":"textbox","id":"sh/kzmdova1","slide":7,"name":"正方形/長方形 5","text":"地元の人は、お湯割りで飲みます。\n私は水割りが好きです。","textPreview":"地元の人は、お湯割りで飲みます。 | 私は水割りが好きです。","textChars":28,"textLines":2,"bbox":[76,355,626,66]}
+{"kind":"textbox","id":"sh/l0vuh0rm","slide":7,"name":"正方形/長方形 6","text":"紹介したい一本","textPreview":"紹介したい一本","textChars":7,"textLines":1,"bbox":[76,435,626,44]}
+{"kind":"textbox","id":"sh/eh0ba1sr","slide":7,"name":"正方形/長方形 7","text":"三岳です。屋久島の焼酎です。\nあっさりして飲みやすいと思います。\n血糖値高い人も芋焼酎はおすすめです。","textPreview":"三岳です。屋久島の焼酎です。 | あっさりして飲みやすいと思います。 | 血糖値高い人も芋焼酎はおすすめです。","textChars":51,"textLines":3,"bbox":[76,481,626,114.44]}
+{"kind":"textbox","id":"sh/cbq1sv25","slide":7,"name":"Mediax header","text":"Mediax","textPreview":"Mediax","textChars":6,"textLines":1,"bbox":[1066,18,144,38]}
+{"kind":"shape","id":"sh/n6x0fqlo","slide":7,"name":"Title underline","bbox":[76,153,1128,0]}
+{"kind":"shape","id":"sh/25ojml43","slide":7,"name":"Title underline accent","bbox":[76,153,300,0]}
+{"kind":"image","id":"im/y1ofmd0z","slide":7,"name":"図 25","bbox":[0,688,1280,32]}
+{"kind":"image","id":"im/j2xwvyhk","slide":7,"name":"図 15","bbox":[764.14,183,160.01,417.64]}
+{"kind":"notes","id":"nt/gnmp4jqx","slide":7,"text":"県公式観光サイトの焼酎文化紹介を参考。ご自身が飲まない場合は銘柄欄を「地元で見かける焼酎」に変更してください。飲酒習慣は推測していません。\n\n参考：https://www.kagoshima-kankou.com/\nテンプレートの使い方：角括弧の欄をご自身の情報へ変更。写真欄は削除して「挿入＞画像」で写真を配置。発表前に記入例を確認。"}
+{"kind":"slide","id":"sl/fu1gfa1s","slide":8,"title":"温泉で楽しむ、鹿児島の休日","textShapes":9}
+{"kind":"textbox","id":"sh/98rehwve","slide":8,"name":"正方形/長方形 10","text":"温泉で楽しむ、鹿児島の休日","textPreview":"温泉で楽しむ、鹿児島の休日","textChars":13,"textLines":1,"bbox":[76,57,1128,95]}
+{"kind":"textbox","id":"sh/18byd4zy","slide":8,"name":"正方形/長方形 1","text":"08 / 10","textPreview":"08 / 10","textChars":7,"textLines":1,"bbox":[1092,654,120,30]}
+{"kind":"textbox","id":"sh/g72x4zyd","slide":8,"name":"正方形/長方形 2","text":"霧島の温泉","textPreview":"霧島の温泉","textChars":5,"textLines":1,"bbox":[76,183,626,44]}
+{"kind":"textbox","id":"sh/ri9g7uhw","slide":8,"name":"正方形/長方形 3","text":"山の風景と一緒に楽しむ","textPreview":"山の風景と一緒に楽しむ","textChars":11,"textLines":1,"bbox":[76,229,626,66]}
+{"kind":"textbox","id":"sh/6h0fypgb","slide":8,"name":"正方形/長方形 4","text":"指宿の砂むし温泉","textPreview":"指宿の砂むし温泉","textChars":8,"textLines":1,"bbox":[76,309,626,44]}
+{"kind":"textbox","id":"sh/tkby9kzm","slide":8,"name":"正方形/長方形 5","text":"鹿児島らしい温泉体験","textPreview":"鹿児島らしい温泉体験","textChars":10,"textLines":1,"bbox":[76,355,626,66]}
+{"kind":"textbox","id":"sh/sjix0zy1","slide":8,"name":"正方形/長方形 6","text":"私のおすすめ","textPreview":"私のおすすめ","textChars":6,"textLines":1,"bbox":[76,435,626,44]}
+{"kind":"textbox","id":"sh/je9g3ahk","slide":8,"name":"正方形/長方形 7","text":"地元民が行く銭湯がおすすめです。500円前後で\n高級旅館の大浴場のような施設やスパワールドのような施設が各町に多数あります。巡るのが楽しいです。","textPreview":"地元民が行く銭湯がおすすめです。500円前後で | 高級旅館の大浴場のような施設やスパワールドのような施設が各町に多数あります。巡るのが楽しいです。","textChars":72,"textLines":2,"bbox":[76,481,616.66,149]}
+{"kind":"textbox","id":"sh/n6pwfmd8","slide":8,"name":"Mediax header","text":"Mediax","textPreview":"Mediax","textChars":6,"textLines":1,"bbox":[1066,18,144,38]}
+{"kind":"shape","id":"sh/0jydkreh","slide":8,"name":"Title underline","bbox":[76,153,1128,0]}
+{"kind":"shape","id":"sh/1k7edwv2","slide":8,"name":"Title underline accent","bbox":[76,153,300,0]}
+{"kind":"image","id":"im/1svqhoje","slide":8,"name":"図 25","bbox":[0,688,1280,32]}
+{"kind":"image","id":"im/0rmpoj2t","slide":8,"name":"図 15","bbox":[497.84,162,408.33,225.58]}
+{"kind":"image","id":"im/nud8jy1k","slide":8,"name":"図 17","bbox":[703.83,399.21,448.17,250.79]}
+{"kind":"notes","id":"nt/fu1gfa1s","slide":8,"text":"霧島温泉と指宿の砂むし温泉は県公式観光案内を参考。温泉体験の感想はご自身で補ってください。\n\n参考：https://www.kagoshima-kankou.com/guide?rtc%5B0%5D=32\nテンプレートの使い方：角括弧の欄をご自身の情報へ変更。写真欄は削除して「挿入＞画像」で写真を配置。発表前に記入例を確認。"}
+{"kind":"slide","id":"sl/udsvah03","slide":9,"title":"天文館で、街歩きと喫茶店めぐり","textShapes":9}
+{"kind":"textbox","id":"sh/p0ji9kf2","slide":9,"name":"正方形/長方形 10","text":"天文館で、街歩きと喫茶店めぐり","textPreview":"天文館で、街歩きと喫茶店めぐり","textChars":15,"textLines":1,"bbox":[76,57,1128,95]}
+{"kind":"textbox","id":"sh/1cfmhgne","slide":9,"name":"正方形/長方形 1","text":"09 / 10","textPreview":"09 / 10","textChars":7,"textLines":1,"bbox":[1092,654,120,30]}
+{"kind":"textbox","id":"sh/0b65obm9","slide":9,"name":"正方形/長方形 2","text":"街歩きの楽しみ","textPreview":"街歩きの楽しみ","textChars":7,"textLines":1,"bbox":[76,183,626,44]}
+{"kind":"textbox","id":"sh/nex4jq5k","slide":9,"name":"正方形/長方形 3","text":"食事をしながら、地元の空気を感じる","textPreview":"食事をしながら、地元の空気を感じる","textChars":17,"textLines":1,"bbox":[76,229,626,66]}
+{"kind":"textbox","id":"sh/mdonql4z","slide":9,"name":"正方形/長方形 4","text":"ブログでも紹介","textPreview":"ブログでも紹介","textChars":7,"textLines":1,"bbox":[76,309,626,44]}
+{"kind":"textbox","id":"sh/9gzml0nq","slide":9,"name":"正方形/長方形 5","text":"天文館の喫茶店「喫茶マノン」","textPreview":"天文館の喫茶店「喫茶マノン」","textChars":14,"textLines":1,"bbox":[76,355,626,66]}
+{"kind":"textbox","id":"sh/ofq5svm5","slide":9,"name":"正方形/長方形 6","text":"おすすめの過ごし方","textPreview":"おすすめの過ごし方","textChars":9,"textLines":1,"bbox":[76,435,626,44]}
+{"kind":"textbox","id":"sh/bih4na5w","slide":9,"name":"正方形/長方形 7","text":"白熊はおすすめ。天文館から山形屋（百貨店）へ\nぶらぶら散歩するのが好きです。","textPreview":"白熊はおすすめ。天文館から山形屋（百貨店）へ | ぶらぶら散歩するのが好きです。","textChars":38,"textLines":2,"bbox":[76,481,626,66]}
+{"kind":"textbox","id":"sh/3y107axw","slide":9,"name":"Mediax header","text":"Mediax","textPreview":"Mediax","textChars":6,"textLines":1,"bbox":[1066,18,144,38]}
+{"kind":"shape","id":"sh/cnu1kzyd","slide":9,"name":"Title underline","bbox":[76,153,1128,0]}
+{"kind":"shape","id":"sh/do3id4fy","slide":9,"name":"Title underline accent","bbox":[76,153,300,0]}
+{"kind":"image","id":"im/t8z610vu","slide":9,"name":"図 25","bbox":[0,688,1280,32]}
+{"kind":"image","id":"im/s76psvu9","slide":9,"name":"tenmonkan-food-walk","bbox":[805.93,166.22,286.07,508.57]}
+{"kind":"notes","id":"nt/udsvah03","slide":9,"text":"ブログのライムライト訪問記事を参考。店の営業状況は本テンプレートでは断定していません。紹介写真と個人的な感想を補ってください。\n\n参考：https://zenpuku-life-4946.com/2026/06/17/tenmonkan-limelight-coffee/\nテンプレートの使い方：角括弧の欄をご自身の情報へ変更。写真欄は削除して「挿入＞画像」で写真を配置。発表前に記入例を確認。"}
+{"kind":"slide","id":"sl/m90b6t0r","slide":10,"title":"鹿児島へ来たら、こんな一日はいかがですか","textShapes":7}
+{"kind":"textbox","id":"sh/m1cnetkj","slide":10,"name":"正方形/長方形 8","text":"鹿児島へ来たら、こんな一日はいかがですか","textPreview":"鹿児島へ来たら、こんな一日はいかがですか","textChars":20,"textLines":1,"bbox":[76,57,1128,95]}
+{"kind":"textbox","id":"sh/xc3mho32","slide":10,"name":"正方形/長方形 1","text":"10 / 10","textPreview":"10 / 10","textChars":7,"textLines":1,"bbox":[1092,654,120,30]}
+{"kind":"textbox","id":"sh/cbu58j2h","slide":10,"name":"正方形/長方形 2","text":"午前　桜島の風景を楽しむもしくはフェリーに乗って行ってみる","textPreview":"午前　桜島の風景を楽しむもしくはフェリーに乗って行ってみる","textChars":29,"textLines":1,"bbox":[76,184,1120,54]}
+{"kind":"textbox","id":"sh/zelojyl8","slide":10,"name":"正方形/長方形 3","text":"昼　　鹿児島の料理を味わう","textPreview":"昼　　鹿児島の料理を味わう","textChars":13,"textLines":1,"bbox":[76,267,1120,54]}
+{"kind":"textbox","id":"sh/ydcnatkn","slide":10,"name":"正方形/長方形 4","text":"午後　街歩きと喫茶店、または温泉へ","textPreview":"午後　街歩きと喫茶店、または温泉へ","textChars":17,"textLines":1,"bbox":[76,350,1120,54]}
+{"kind":"textbox","id":"sh/l036l83y","slide":10,"name":"正方形/長方形 5","text":"よろしくお願いします。鹿児島の話も、ぜひ！","textPreview":"よろしくお願いします。鹿児島の話も、ぜひ！","textChars":21,"textLines":1,"bbox":[76,456,1120,65]}
+{"kind":"textbox","id":"sh/d87uxg3m","slide":10,"name":"Mediax header","text":"Mediax","textPreview":"Mediax","textChars":6,"textLines":1,"bbox":[1066,18,144,38]}
+{"kind":"shape","id":"sh/q5gb21kb","slide":10,"name":"Title underline","bbox":[76,153,1128,0]}
+{"kind":"shape","id":"sh/r6pcv6lw","slide":10,"name":"Title underline accent","bbox":[76,153,300,0]}
+{"kind":"image","id":"im/7e50vel0","slide":10,"name":"図 21","bbox":[0,688,1280,32]}
+{"kind":"notes","id":"nt/m90b6t0r","slide":10,"text":"この一日は提案用の記入例です。移動手段や滞在時間に応じて調整してください。最後に質問を受け、仕事や趣味の話につなげます。\n\n参考：https://zenpuku-life-4946.com/\nhttps://www.instagram.com/zentoku_n/\nテンプレートの使い方：角括弧の欄をご自身の情報へ変更。写真欄は削除して「挿入＞画像」で写真を配置。発表前に記入例を確認。"}

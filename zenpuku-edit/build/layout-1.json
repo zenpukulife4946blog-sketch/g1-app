@@ -1,0 +1,560 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/y90nupkv",
+    "id": "y90nupkv",
+    "slide": 1,
+    "layoutId": "/ppt/slideLayouts/slideLayout1.xml",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#153447",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "fontScheme": {
+      "majorFont": {
+        "latinTypeface": "Aptos"
+      },
+      "minorFont": {
+        "latinTypeface": "Aptos"
+      }
+    },
+    "typefaces": [
+      "Aptos",
+      "Noto Sans CJK JP"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout1.xml",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/ipofexcz",
+      "id": "11",
+      "name": "図 12",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "contentType": "image/jpeg",
+      "imageCrop": {
+        "left": 0,
+        "top": 0.078,
+        "right": 0,
+        "bottom": 0.078
+      },
+      "asset": {
+        "assetId": "/ppt/media/image1.jpeg",
+        "contentType": "image/jpeg",
+        "byteLength": 268511
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image1.jpeg",
+        "contentType": "image/jpeg",
+        "byteLength": 268511
+      }
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wn6dc7eh",
+      "id": "10",
+      "name": "Cover contrast overlay",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "rgba(21, 52, 71, 0.4)",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fu94fe98",
+      "id": "8",
+      "name": "正方形/長方形 7",
+      "bbox": [
+        76,
+        60,
+        1128,
+        92
+      ],
+      "geometry": "rect",
+      "text": "自己紹介と、地元・鹿児島の紹介",
+      "textPreview": "自己紹介と、地元・鹿児島の紹介",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "自己紹介と、地元・鹿児島の紹介"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "自己紹介と、地元・鹿児島の紹介",
+          "resolvedTextStyle": {
+            "fontSize": 46,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#FFFFFF",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "自己紹介と、地元・鹿児島の紹介",
+              "fontSize": 46,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#FFFFFF",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/547294r6",
+      "id": "2",
+      "name": "正方形/長方形 1",
+      "bbox": [
+        1092,
+        654,
+        120,
+        30
+      ],
+      "geometry": "rect",
+      "text": "01 / 10",
+      "textPreview": "01 / 10",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "01 / 10"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "01 / 10",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#C5D1D4"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "01 / 10",
+              "fontSize": 18,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#C5D1D4"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/k3yl0zql",
+      "id": "3",
+      "name": "正方形/長方形 2",
+      "bbox": [
+        76,
+        221,
+        700,
+        110
+      ],
+      "geometry": "rect",
+      "text": "善福 徳行\n",
+      "textPreview": "善福 徳行 |",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "善福 徳行"
+          },
+          {
+            "index": 2,
+            "text": ""
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "善福 徳行",
+          "resolvedTextStyle": {
+            "fontSize": 70,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#FFFFFF",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "善福 徳行",
+              "fontSize": 70,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#FFFFFF",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7qp4be9c",
+      "id": "4",
+      "name": "正方形/長方形 3",
+      "bbox": [
+        80,
+        349,
+        620,
+        60
+      ],
+      "geometry": "rect",
+      "text": "（ゼンプク　ノリユキ）",
+      "textPreview": "（ゼンプク　ノリユキ）",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "（ゼンプク　ノリユキ）"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "（ゼンプク　ノリユキ）",
+          "resolvedTextStyle": {
+            "fontSize": 32,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#D1DFE2"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "（ゼンプク　ノリユキ）",
+              "fontSize": 32,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#D1DFE2"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/65g3298r",
+      "id": "5",
+      "name": "正方形/長方形 4",
+      "bbox": [
+        80,
+        437,
+        620,
+        50
+      ],
+      "geometry": "rect",
+      "text": "関西大学MONOラボ  ／  2026年11月3日",
+      "textPreview": "関西大学MONOラボ  ／  2026年11月3日",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "関西大学MONOラボ  ／  2026年11月3日"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "関西大学MONOラボ  ／  2026年11月3日",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#D1DFE2"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "関西大学",
+              "fontSize": 25,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#D1DFE2"
+            },
+            {
+              "index": 2,
+              "text": "MONO",
+              "fontSize": 25,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#D1DFE2"
+            },
+            {
+              "index": 3,
+              "text": "ラボ",
+              "fontSize": 25,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#D1DFE2"
+            },
+            {
+              "index": 4,
+              "text": "  ／  ",
+              "fontSize": 25,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#D1DFE2"
+            },
+            {
+              "index": 5,
+              "text": "2026",
+              "fontSize": 25,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#D1DFE2"
+            },
+            {
+              "index": 6,
+              "text": "年",
+              "fontSize": 25,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#D1DFE2"
+            },
+            {
+              "index": 7,
+              "text": "11",
+              "fontSize": 25,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#D1DFE2"
+            },
+            {
+              "index": 8,
+              "text": "月",
+              "fontSize": 25,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#D1DFE2"
+            },
+            {
+              "index": 9,
+              "text": "3",
+              "fontSize": 25,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#D1DFE2"
+            },
+            {
+              "index": 10,
+              "text": "日",
+              "fontSize": 25,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#D1DFE2"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/5cze9svq",
+      "id": "12",
+      "name": "図 21",
+      "bbox": [
+        0,
+        688,
+        1280,
+        32
+      ],
+      "contentType": "image/png",
+      "imageCrop": {
+        "left": 0,
+        "top": 0.4625,
+        "right": 0,
+        "bottom": 0.4625
+      },
+      "asset": {
+        "assetId": "/ppt/media/image2.png",
+        "contentType": "image/png",
+        "byteLength": 3420878
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image2.png",
+        "contentType": "image/png",
+        "byteLength": 3420878
+      }
+    },
+    {
+      "order": 9,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/kr6xgnu5",
+      "id": "13",
+      "name": "図 10",
+      "bbox": [
+        822.38,
+        206.35,
+        243.62,
+        365.44
+      ],
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image3.PNG",
+        "contentType": "image/png",
+        "byteLength": 2033787
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image3.PNG",
+        "contentType": "image/png",
+        "byteLength": 2033787
+      }
+    }
+  ],
+  "composeRuns": []
+}

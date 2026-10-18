@@ -1,0 +1,835 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/x8f69ofe",
+    "id": "x8f69ofe",
+    "slide": 6,
+    "layoutId": "/ppt/slideLayouts/slideLayout1.xml",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FAFAF6",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "fontScheme": {
+      "majorFont": {
+        "latinTypeface": "Aptos"
+      },
+      "minorFont": {
+        "latinTypeface": "Aptos"
+      }
+    },
+    "typefaces": [
+      "Aptos",
+      "Noto Sans CJK JP"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout1.xml",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w32twb6l",
+      "id": "11",
+      "name": "正方形/長方形 10",
+      "bbox": [
+        76,
+        62,
+        1128,
+        86
+      ],
+      "geometry": "rect",
+      "text": "鹿児島で味わいたい、地元の食",
+      "textPreview": "鹿児島で味わいたい、地元の食",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "鹿児島で味わいたい、地元の食"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "鹿児島で味わいたい、地元の食",
+          "resolvedTextStyle": {
+            "fontSize": 46,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#153447",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "鹿児島で味わいたい、地元の食",
+              "fontSize": 46,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yhg7epsj",
+      "id": "2",
+      "name": "正方形/長方形 1",
+      "bbox": [
+        1092,
+        654,
+        120,
+        30
+      ],
+      "geometry": "rect",
+      "text": "06 / 10",
+      "textPreview": "06 / 10",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "06 / 10"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "06 / 10",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#64747A"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "06 / 10",
+              "fontSize": 18,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#64747A"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zi98nu94",
+      "id": "3",
+      "name": "正方形/長方形 2",
+      "bbox": [
+        76,
+        183,
+        626,
+        44
+      ],
+      "geometry": "rect",
+      "text": "黒豚・さつま揚げ",
+      "textPreview": "黒豚・さつま揚げ",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "黒豚・さつま揚げ"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "黒豚・さつま揚げ",
+          "resolvedTextStyle": {
+            "fontSize": 29,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#B55236",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "黒豚・さつま揚げ",
+              "fontSize": 29,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#B55236",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/87ipkzal",
+      "id": "4",
+      "name": "正方形/長方形 3",
+      "bbox": [
+        76,
+        229,
+        626,
+        66
+      ],
+      "geometry": "rect",
+      "text": "鹿児島を紹介する定番の味",
+      "textPreview": "鹿児島を紹介する定番の味",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "鹿児島を紹介する定番の味"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "鹿児島を紹介する定番の味",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#153447"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "鹿児島を紹介する定番の味",
+              "fontSize": 25,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/98rqt4r6",
+      "id": "5",
+      "name": "正方形/長方形 4",
+      "bbox": [
+        76,
+        309,
+        626,
+        44
+      ],
+      "geometry": "rect",
+      "text": "ラーメンや甘いものも",
+      "textPreview": "ラーメンや甘いものも",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "ラーメンや甘いものも"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "ラーメンや甘いものも",
+          "resolvedTextStyle": {
+            "fontSize": 29,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#B55236",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "ラーメンや甘いものも",
+              "fontSize": 29,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#B55236",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ml07i9sv",
+      "id": "6",
+      "name": "正方形/長方形 5",
+      "bbox": [
+        76,
+        355,
+        626,
+        66
+      ],
+      "geometry": "rect",
+      "text": "お酒飲んだ後の天文館のり一の\nラーメンがすきです。かるかんも好き",
+      "textPreview": "お酒飲んだ後の天文館のり一の | ラーメンがすきです。かるかんも好き",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "お酒飲んだ後の天文館のり一の"
+          },
+          {
+            "index": 2,
+            "text": "ラーメンがすきです。かるかんも好き"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "お酒飲んだ後の天文館のり一の",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#153447"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "お酒飲んだ後の天文館のり一の",
+              "fontSize": 25,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "ラーメンがすきです。かるかんも好き",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#153447"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "ラーメンがすきです。かるかんも好き",
+              "fontSize": 25,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7m98ru9g",
+      "id": "7",
+      "name": "正方形/長方形 6",
+      "bbox": [
+        76,
+        435,
+        626,
+        44
+      ],
+      "geometry": "rect",
+      "text": "私の一押し",
+      "textPreview": "私の一押し",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "私の一押し"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "私の一押し",
+          "resolvedTextStyle": {
+            "fontSize": 29,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#B55236",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "私の一押し",
+              "fontSize": 29,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#B55236",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/oryp8fah",
+      "id": "8",
+      "name": "正方形/長方形 7",
+      "bbox": [
+        76,
+        481,
+        626,
+        66
+      ],
+      "geometry": "rect",
+      "text": "鹿児島人の中で一番美味しい\nとされるとんかつ屋竹亭",
+      "textPreview": "鹿児島人の中で一番美味しい | とされるとんかつ屋竹亭",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "鹿児島人の中で一番美味しい"
+          },
+          {
+            "index": 2,
+            "text": "とされるとんかつ屋竹亭"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "鹿児島人の中で一番美味しい",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#153447"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "鹿児島人の中で一番美味しい",
+              "fontSize": 25,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "とされるとんかつ屋竹亭",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#153447"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "とされるとんかつ屋竹亭",
+              "fontSize": 25,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/kvatojut",
+      "id": "16",
+      "name": "図 25",
+      "bbox": [
+        0,
+        688,
+        1280,
+        32
+      ],
+      "contentType": "image/png",
+      "imageCrop": {
+        "left": 0,
+        "top": 0.4625,
+        "right": 0,
+        "bottom": 0.4625
+      },
+      "asset": {
+        "assetId": "/ppt/media/image2.png",
+        "contentType": "image/png",
+        "byteLength": 3420878
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image2.png",
+        "contentType": "image/png",
+        "byteLength": 3420878
+      }
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/u1kbu1ov",
+      "id": "13",
+      "name": "Mediax header",
+      "bbox": [
+        1066,
+        18,
+        144,
+        38
+      ],
+      "geometry": "rect",
+      "text": "Mediax",
+      "textPreview": "Mediax",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Mediax"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Mediax",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#153447",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Mediax",
+              "fontSize": 24,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5svutgni",
+      "id": "14",
+      "name": "Title underline",
+      "bbox": [
+        76,
+        153,
+        1128,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#CBD4D5",
+      "lineWidth": 1.5
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/47mt0b6x",
+      "id": "15",
+      "name": "Title underline accent",
+      "bbox": [
+        76,
+        153,
+        190,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#B55236",
+      "lineWidth": 4
+    },
+    {
+      "order": 13,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/lw3uh4be",
+      "id": "17",
+      "name": "図 15",
+      "bbox": [
+        522.06,
+        421,
+        277.07,
+        221.39
+      ],
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image9.png",
+        "contentType": "image/png",
+        "byteLength": 525354
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image9.png",
+        "contentType": "image/png",
+        "byteLength": 525354
+      }
+    },
+    {
+      "order": 14,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/a5sbipcr",
+      "id": "18",
+      "name": "図 17",
+      "bbox": [
+        824.65,
+        417.87,
+        334.85,
+        255
+      ],
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image10.png",
+        "contentType": "image/png",
+        "byteLength": 663141
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image10.png",
+        "contentType": "image/png",
+        "byteLength": 663141
+      }
+    },
+    {
+      "order": 15,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/b61sbutc",
+      "id": "19",
+      "name": "図 19",
+      "bbox": [
+        522.06,
+        152,
+        390.42,
+        254.21
+      ],
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image11.png",
+        "contentType": "image/png",
+        "byteLength": 327486
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image11.png",
+        "contentType": "image/png",
+        "byteLength": 327486
+      }
+    }
+  ],
+  "composeRuns": []
+}

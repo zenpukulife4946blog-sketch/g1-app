@@ -1,0 +1,636 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/m90b6t0r",
+    "id": "m90b6t0r",
+    "slide": 10,
+    "layoutId": "/ppt/slideLayouts/slideLayout1.xml",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FAFAF6",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "fontScheme": {
+      "majorFont": {
+        "latinTypeface": "Aptos"
+      },
+      "minorFont": {
+        "latinTypeface": "Aptos"
+      }
+    },
+    "typefaces": [
+      "Aptos",
+      "Noto Sans CJK JP"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout1.xml",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m1cnetkj",
+      "id": "9",
+      "name": "正方形/長方形 8",
+      "bbox": [
+        76,
+        62,
+        1128,
+        86
+      ],
+      "geometry": "rect",
+      "text": "鹿児島へ来たら、こんな一日はいかがですか",
+      "textPreview": "鹿児島へ来たら、こんな一日はいかがですか",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "鹿児島へ来たら、こんな一日はいかがですか"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "鹿児島へ来たら、こんな一日はいかがですか",
+          "resolvedTextStyle": {
+            "fontSize": 46,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#153447",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "鹿児島へ来たら、こんな一日はいかがですか",
+              "fontSize": 46,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xc3mho32",
+      "id": "2",
+      "name": "正方形/長方形 1",
+      "bbox": [
+        1092,
+        654,
+        120,
+        30
+      ],
+      "geometry": "rect",
+      "text": "10 / 10",
+      "textPreview": "10 / 10",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "10 / 10"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "10 / 10",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#64747A"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "10 / 10",
+              "fontSize": 18,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#64747A"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cbu58j2h",
+      "id": "3",
+      "name": "正方形/長方形 2",
+      "bbox": [
+        76,
+        184,
+        1120,
+        54
+      ],
+      "geometry": "rect",
+      "text": "午前　桜島の風景を楽しむもしくはフェリーに乗って行ってみる",
+      "textPreview": "午前　桜島の風景を楽しむもしくはフェリーに乗って行ってみる",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "午前　桜島の風景を楽しむもしくはフェリーに乗って行ってみる"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "午前　桜島の風景を楽しむもしくはフェリーに乗って行ってみる",
+          "resolvedTextStyle": {
+            "fontSize": 31,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#153447",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "午前",
+              "fontSize": 31,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447",
+              "bold": true
+            },
+            {
+              "index": 2,
+              "text": "　",
+              "fontSize": 31,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447",
+              "bold": true
+            },
+            {
+              "index": 3,
+              "text": "桜島の風景を楽しむ",
+              "fontSize": 31,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447",
+              "bold": true
+            },
+            {
+              "index": 4,
+              "text": "もしくはフェリーに乗って行ってみる",
+              "fontSize": 31,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zelojyl8",
+      "id": "4",
+      "name": "正方形/長方形 3",
+      "bbox": [
+        76,
+        267,
+        1120,
+        54
+      ],
+      "geometry": "rect",
+      "text": "昼　　鹿児島の料理を味わう",
+      "textPreview": "昼　　鹿児島の料理を味わう",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "昼　　鹿児島の料理を味わう"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "昼　　鹿児島の料理を味わう",
+          "resolvedTextStyle": {
+            "fontSize": 31,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#153447",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "昼　　",
+              "fontSize": 31,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447",
+              "bold": true
+            },
+            {
+              "index": 2,
+              "text": "鹿児島の料理を味わう",
+              "fontSize": 31,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ydcnatkn",
+      "id": "5",
+      "name": "正方形/長方形 4",
+      "bbox": [
+        76,
+        350,
+        1120,
+        54
+      ],
+      "geometry": "rect",
+      "text": "午後　街歩きと喫茶店、または温泉へ",
+      "textPreview": "午後　街歩きと喫茶店、または温泉へ",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "午後　街歩きと喫茶店、または温泉へ"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "午後　街歩きと喫茶店、または温泉へ",
+          "resolvedTextStyle": {
+            "fontSize": 31,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#153447",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "午後",
+              "fontSize": 31,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447",
+              "bold": true
+            },
+            {
+              "index": 2,
+              "text": "　",
+              "fontSize": 31,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447",
+              "bold": true
+            },
+            {
+              "index": 3,
+              "text": "街歩きと喫茶店、または温泉へ",
+              "fontSize": 31,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l036l83y",
+      "id": "6",
+      "name": "正方形/長方形 5",
+      "bbox": [
+        76,
+        456,
+        1120,
+        65
+      ],
+      "geometry": "rect",
+      "text": "よろしくお願いします。鹿児島の話も、ぜひ！",
+      "textPreview": "よろしくお願いします。鹿児島の話も、ぜひ！",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "よろしくお願いします。鹿児島の話も、ぜひ！"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "よろしくお願いします。鹿児島の話も、ぜひ！",
+          "resolvedTextStyle": {
+            "fontSize": 33,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#B55236",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "よろしくお願いします。鹿児島の話も、ぜひ！",
+              "fontSize": 33,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#B55236",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/7e50vel0",
+      "id": "14",
+      "name": "図 21",
+      "bbox": [
+        0,
+        688,
+        1280,
+        32
+      ],
+      "contentType": "image/png",
+      "imageCrop": {
+        "left": 0,
+        "top": 0.4625,
+        "right": 0,
+        "bottom": 0.4625
+      },
+      "asset": {
+        "assetId": "/ppt/media/image2.png",
+        "contentType": "image/png",
+        "byteLength": 3420878
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image2.png",
+        "contentType": "image/png",
+        "byteLength": 3420878
+      }
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d87uxg3m",
+      "id": "11",
+      "name": "Mediax header",
+      "bbox": [
+        1066,
+        18,
+        144,
+        38
+      ],
+      "geometry": "rect",
+      "text": "Mediax",
+      "textPreview": "Mediax",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Mediax"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Mediax",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#153447",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Mediax",
+              "fontSize": 24,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/q5gb21kb",
+      "id": "12",
+      "name": "Title underline",
+      "bbox": [
+        76,
+        153,
+        1128,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#CBD4D5",
+      "lineWidth": 1.5
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/r6pcv6lw",
+      "id": "13",
+      "name": "Title underline accent",
+      "bbox": [
+        76,
+        153,
+        190,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#B55236",
+      "lineWidth": 4
+    }
+  ],
+  "composeRuns": []
+}

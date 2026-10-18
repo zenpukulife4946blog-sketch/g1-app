@@ -1,0 +1,758 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/jyx0ra1s",
+    "id": "jyx0ra1s",
+    "slide": 4,
+    "layoutId": "/ppt/slideLayouts/slideLayout1.xml",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FAFAF6",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "fontScheme": {
+      "majorFont": {
+        "latinTypeface": "Aptos"
+      },
+      "minorFont": {
+        "latinTypeface": "Aptos"
+      }
+    },
+    "typefaces": [
+      "Aptos",
+      "Noto Sans CJK JP"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout1.xml",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5cva1cfq",
+      "id": "11",
+      "name": "正方形/長方形 10",
+      "bbox": [
+        76,
+        62,
+        1128,
+        86
+      ],
+      "geometry": "rect",
+      "text": "私の地元、鹿児島",
+      "textPreview": "私の地元、鹿児島",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "私の地元、鹿児島"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "私の地元、鹿児島",
+          "resolvedTextStyle": {
+            "fontSize": 46,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#153447",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "私の地元、鹿児島",
+              "fontSize": 46,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1cj2d8b6",
+      "id": "2",
+      "name": "正方形/長方形 1",
+      "bbox": [
+        1092,
+        654,
+        120,
+        30
+      ],
+      "geometry": "rect",
+      "text": "04 / 10",
+      "textPreview": "04 / 10",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "04 / 10"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "04 / 10",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#64747A"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "04 / 10",
+              "fontSize": 18,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#64747A"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0ba143al",
+      "id": "3",
+      "name": "正方形/長方形 2",
+      "bbox": [
+        76,
+        183,
+        626,
+        44
+      ],
+      "geometry": "rect",
+      "text": "九州の南にある県",
+      "textPreview": "九州の南にある県",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "九州の南にある県"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "九州の南にある県",
+          "resolvedTextStyle": {
+            "fontSize": 29,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#B55236",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "九州の南にある県",
+              "fontSize": 29,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#B55236",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rm1k7yt4",
+      "id": "4",
+      "name": "正方形/長方形 3",
+      "bbox": [
+        76,
+        229,
+        626,
+        66
+      ],
+      "geometry": "rect",
+      "text": "鹿児島市の街並みと桜島",
+      "textPreview": "鹿児島市の街並みと桜島",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "鹿児島市の街並みと桜島"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "鹿児島市の街並みと桜島",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#153447"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "鹿児島市の街並みと桜島",
+              "fontSize": 25,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ql8jytsj",
+      "id": "5",
+      "name": "正方形/長方形 4",
+      "bbox": [
+        76,
+        309,
+        626,
+        44
+      ],
+      "geometry": "rect",
+      "text": "楽しみ方はいろいろ",
+      "textPreview": "楽しみ方はいろいろ",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "楽しみ方はいろいろ"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "楽しみ方はいろいろ",
+          "resolvedTextStyle": {
+            "fontSize": 29,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#B55236",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "楽しみ方はいろいろ",
+              "fontSize": 29,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#B55236",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/doj29oba",
+      "id": "6",
+      "name": "正方形/長方形 5",
+      "bbox": [
+        76,
+        355,
+        626,
+        66
+      ],
+      "geometry": "rect",
+      "text": "風景、地元の味（黒豚、黒牛、黒薩摩鳥）、温泉、街歩き",
+      "textPreview": "風景、地元の味（黒豚、黒牛、黒薩摩鳥）、温泉、街歩き",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "風景、地元の味（黒豚、黒牛、黒薩摩鳥）、温泉、街歩き"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "風景、地元の味（黒豚、黒牛、黒薩摩鳥）、温泉、街歩き",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#153447"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "風景、地元の味",
+              "fontSize": 25,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447"
+            },
+            {
+              "index": 2,
+              "text": "（黒豚、黒牛、黒薩摩鳥）",
+              "fontSize": 25,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447"
+            },
+            {
+              "index": 3,
+              "text": "、",
+              "fontSize": 25,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447"
+            },
+            {
+              "index": 4,
+              "text": "温泉、街歩き",
+              "fontSize": 25,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sna103ap",
+      "id": "7",
+      "name": "正方形/長方形 6",
+      "bbox": [
+        76,
+        435,
+        626,
+        44
+      ],
+      "geometry": "rect",
+      "text": "今日は身近な鹿児島をご紹介",
+      "textPreview": "今日は身近な鹿児島をご紹介",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "今日は身近な鹿児島をご紹介"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "今日は身近な鹿児島をご紹介",
+          "resolvedTextStyle": {
+            "fontSize": 29,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#B55236",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "今日は身近な鹿児島をご紹介",
+              "fontSize": 29,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#B55236",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3ihk3et8",
+      "id": "8",
+      "name": "正方形/長方形 7",
+      "bbox": [
+        76,
+        481,
+        626,
+        66
+      ],
+      "geometry": "rect",
+      "text": "鹿児島市を中心に、県内の魅力も",
+      "textPreview": "鹿児島市を中心に、県内の魅力も",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "鹿児島市を中心に、県内の魅力も"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "鹿児島市を中心に、県内の魅力も",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#153447"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "鹿児島市を中心に、県内の魅力も",
+              "fontSize": 25,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/tcvm5gji",
+      "id": "16",
+      "name": "図 25",
+      "bbox": [
+        0,
+        688,
+        1280,
+        32
+      ],
+      "contentType": "image/png",
+      "imageCrop": {
+        "left": 0,
+        "top": 0.4625,
+        "right": 0,
+        "bottom": 0.4625
+      },
+      "asset": {
+        "assetId": "/ppt/media/image2.png",
+        "contentType": "image/png",
+        "byteLength": 3420878
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image2.png",
+        "contentType": "image/png",
+        "byteLength": 3420878
+      }
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jadsz2xk",
+      "id": "13",
+      "name": "Mediax header",
+      "bbox": [
+        1066,
+        18,
+        144,
+        38
+      ],
+      "geometry": "rect",
+      "text": "Mediax",
+      "textPreview": "Mediax",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Mediax"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Mediax",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#153447",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Mediax",
+              "fontSize": 24,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w72947yt",
+      "id": "14",
+      "name": "Title underline",
+      "bbox": [
+        76,
+        153,
+        1128,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#CBD4D5",
+      "lineWidth": 1.5
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x8vaxsfe",
+      "id": "15",
+      "name": "Title underline accent",
+      "bbox": [
+        76,
+        153,
+        190,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#B55236",
+      "lineWidth": 4
+    },
+    {
+      "order": 13,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/sbm5cbix",
+      "id": "17",
+      "name": "図 19",
+      "bbox": [
+        746.82,
+        183,
+        319.18,
+        425.57
+      ],
+      "contentType": "image/jpeg",
+      "asset": {
+        "assetId": "/ppt/media/image6.jpeg",
+        "contentType": "image/jpeg",
+        "byteLength": 1581483
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image6.jpeg",
+        "contentType": "image/jpeg",
+        "byteLength": 1581483
+      }
+    }
+  ],
+  "composeRuns": []
+}

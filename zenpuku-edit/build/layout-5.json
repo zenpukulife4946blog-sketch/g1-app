@@ -1,0 +1,911 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/i107q5of",
+    "id": "i107q5of",
+    "slide": 5,
+    "layoutId": "/ppt/slideLayouts/slideLayout1.xml",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FAFAF6",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "fontScheme": {
+      "majorFont": {
+        "latinTypeface": "Aptos"
+      },
+      "minorFont": {
+        "latinTypeface": "Aptos"
+      }
+    },
+    "typefaces": [
+      "Aptos",
+      "Noto Sans CJK JP"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout1.xml",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x4vedgvm",
+      "id": "11",
+      "name": "正方形/長方形 10",
+      "bbox": [
+        76,
+        62,
+        1128,
+        86
+      ],
+      "geometry": "rect",
+      "text": "西郷隆盛と明治遺産",
+      "textPreview": "西郷隆盛と明治遺産",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "西郷隆盛と明治遺産"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "西郷隆盛と明治遺産",
+          "resolvedTextStyle": {
+            "fontSize": 46,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#153447",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "西郷隆盛と明治遺産",
+              "fontSize": 46,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dgbulwnm",
+      "id": "2",
+      "name": "正方形/長方形 1",
+      "bbox": [
+        1092,
+        654,
+        120,
+        30
+      ],
+      "geometry": "rect",
+      "text": "05 / 10",
+      "textPreview": "05 / 10",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "05 / 10"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "05 / 10",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#64747A"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "05 / 10",
+              "fontSize": 18,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#64747A"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cf2tcr61",
+      "id": "3",
+      "name": "正方形/長方形 2",
+      "bbox": [
+        76,
+        183,
+        626,
+        44
+      ],
+      "geometry": "rect",
+      "text": "鹿児島のシンボル",
+      "textPreview": "鹿児島のシンボル",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "鹿児島のシンボル"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "鹿児島のシンボル",
+          "resolvedTextStyle": {
+            "fontSize": 29,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#B55236",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "鹿児島のシンボル",
+              "fontSize": 29,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#B55236",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/z2tcnm5s",
+      "id": "4",
+      "name": "正方形/長方形 3",
+      "bbox": [
+        76,
+        229,
+        626,
+        140
+      ],
+      "geometry": "rect",
+      "text": "なんといっても西郷隆盛。鹿児島では大久保さんより\n西郷さんをとても慕っています。\n没後150年で鹿児島盛り上がって\nます！！",
+      "textPreview": "なんといっても西郷隆盛。鹿児島では大久保さんより | 西郷さんをとても慕っています。 | 没後150年で鹿児島盛り上がって | ます！！",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "なんといっても西郷隆盛。鹿児島では大久保さんより"
+          },
+          {
+            "index": 2,
+            "text": "西郷さんをとても慕っています。"
+          },
+          {
+            "index": 3,
+            "text": "没後150年で鹿児島盛り上がって"
+          },
+          {
+            "index": 4,
+            "text": "ます！！"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "なんといっても西郷隆盛。鹿児島では大久保さんより",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#153447"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "なんといっても",
+              "fontSize": 25,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447"
+            },
+            {
+              "index": 2,
+              "text": "西郷隆盛。鹿児島では大久保さんより",
+              "fontSize": 25,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "西郷さんをとても慕っています。",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#153447"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "西郷さんをとても慕っています。",
+              "fontSize": 25,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "没後150年で鹿児島盛り上がって",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#153447"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "没後",
+              "fontSize": 25,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447"
+            },
+            {
+              "index": 2,
+              "text": "150",
+              "fontSize": 25,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447"
+            },
+            {
+              "index": 3,
+              "text": "年で鹿児島盛り上がって",
+              "fontSize": 25,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 4,
+          "text": "ます！！",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#153447"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "ます！！",
+              "fontSize": 25,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yhkbe1o7",
+      "id": "5",
+      "name": "正方形/長方形 4",
+      "bbox": [
+        76,
+        378.38,
+        626,
+        44
+      ],
+      "geometry": "rect",
+      "text": "磯庭園から楽しめる景色",
+      "textPreview": "磯庭園から楽しめる景色",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "磯庭園から楽しめる景色"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "磯庭園から楽しめる景色",
+          "resolvedTextStyle": {
+            "fontSize": 29,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#B55236",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "磯庭園",
+              "fontSize": 29,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#B55236",
+              "bold": true
+            },
+            {
+              "index": 2,
+              "text": "から楽しめる景色",
+              "fontSize": 29,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#B55236",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l4bupwny",
+      "id": "6",
+      "name": "正方形/長方形 5",
+      "bbox": [
+        76,
+        429.5,
+        626,
+        66
+      ],
+      "geometry": "rect",
+      "text": "磯庭園は島津家の別邸です。\n桜島と海が見える風景",
+      "textPreview": "磯庭園は島津家の別邸です。 | 桜島と海が見える風景",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "磯庭園は島津家の別邸です。"
+          },
+          {
+            "index": 2,
+            "text": "桜島と海が見える風景"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "磯庭園は島津家の別邸です。",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#153447"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "磯庭園は島津家の別邸です。",
+              "fontSize": 25,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "桜島と海が見える風景",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#153447"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "桜島と海が見える風景",
+              "fontSize": 25,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/032tgr6d",
+      "id": "7",
+      "name": "正方形/長方形 6",
+      "bbox": [
+        76,
+        515.96,
+        626,
+        44
+      ],
+      "geometry": "rect",
+      "text": "磯庭園は世界文化遺産です。",
+      "textPreview": "磯庭園は世界文化遺産です。",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "磯庭園は世界文化遺産です。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "磯庭園は世界文化遺産です。",
+          "resolvedTextStyle": {
+            "fontSize": 29,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#B55236",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "磯庭園は世界文化遺産です。",
+              "fontSize": 29,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#B55236",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/n6dcr65o",
+      "id": "8",
+      "name": "正方形/長方形 7",
+      "bbox": [
+        76,
+        561.5,
+        476.91,
+        66
+      ],
+      "geometry": "rect",
+      "text": "この一帯を含めユネスコの世界文化遺産\nになっています。",
+      "textPreview": "この一帯を含めユネスコの世界文化遺産 | になっています。",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "この一帯を含めユネスコの世界文化遺産"
+          },
+          {
+            "index": 2,
+            "text": "になっています。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "この一帯を含めユネスコの世界文化遺産",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#153447"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "この一帯を含めユネスコの世界文化遺産",
+              "fontSize": 25,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "になっています。",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#153447"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "になっています。",
+              "fontSize": 25,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/5ove5g3m",
+      "id": "16",
+      "name": "図 25",
+      "bbox": [
+        0,
+        688,
+        1280,
+        32
+      ],
+      "contentType": "image/png",
+      "imageCrop": {
+        "left": 0,
+        "top": 0.4625,
+        "right": 0,
+        "bottom": 0.4625
+      },
+      "asset": {
+        "assetId": "/ppt/media/image2.png",
+        "contentType": "image/png",
+        "byteLength": 3420878
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image2.png",
+        "contentType": "image/png",
+        "byteLength": 3420878
+      }
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/v2twb6dw",
+      "id": "13",
+      "name": "Mediax header",
+      "bbox": [
+        1066,
+        18,
+        144,
+        38
+      ],
+      "geometry": "rect",
+      "text": "Mediax",
+      "textPreview": "Mediax",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Mediax"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Mediax",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#153447",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Mediax",
+              "fontSize": 24,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/k7mxovud",
+      "id": "14",
+      "name": "Title underline",
+      "bbox": [
+        76,
+        153,
+        1128,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#CBD4D5",
+      "lineWidth": 1.5
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/58vehgvy",
+      "id": "15",
+      "name": "Title underline accent",
+      "bbox": [
+        76,
+        153,
+        190,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#B55236",
+      "lineWidth": 4
+    },
+    {
+      "order": 13,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/4nmdwbm1",
+      "id": "17",
+      "name": "図 19",
+      "bbox": [
+        591.48,
+        295,
+        612.52,
+        344.73
+      ],
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image7.png",
+        "contentType": "image/png",
+        "byteLength": 2688441
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image7.png",
+        "contentType": "image/png",
+        "byteLength": 2688441
+      }
+    },
+    {
+      "order": 14,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/vitwz65k",
+      "id": "18",
+      "name": "図 21",
+      "bbox": [
+        373.89,
+        248.72,
+        307.83,
+        217.66
+      ],
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image8.png",
+        "contentType": "image/png",
+        "byteLength": 971983
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image8.png",
+        "contentType": "image/png",
+        "byteLength": 971983
+      }
+    }
+  ],
+  "composeRuns": []
+}

@@ -1,0 +1,934 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/hwbqtkby",
+    "id": "hwbqtkby",
+    "slide": 2,
+    "layoutId": "/ppt/slideLayouts/slideLayout1.xml",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "fontScheme": {
+      "majorFont": {
+        "latinTypeface": "Aptos"
+      },
+      "minorFont": {
+        "latinTypeface": "Aptos"
+      }
+    },
+    "typefaces": [
+      "Aptos",
+      "Noto Sans CJK JP"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout1.xml",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9wnqhczy",
+      "id": "11",
+      "name": "正方形/長方形 10",
+      "bbox": [
+        76,
+        62,
+        1128,
+        86
+      ],
+      "geometry": "rect",
+      "text": "これまでの仕事と、今取り組んでいること",
+      "textPreview": "これまでの仕事と、今取り組んでいること",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "これまでの仕事と、今取り組んでいること"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "これまでの仕事と、今取り組んでいること",
+          "resolvedTextStyle": {
+            "fontSize": 46,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#153447",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "これまでの仕事と、今取り組んでいること",
+              "fontSize": 46,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineColor": "bg1",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9072xkry",
+      "id": "2",
+      "name": "正方形/長方形 1",
+      "bbox": [
+        1092,
+        654,
+        120,
+        30
+      ],
+      "geometry": "rect",
+      "text": "02 / 10",
+      "textPreview": "02 / 10",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "02 / 10"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "02 / 10",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#64747A"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "02 / 10",
+              "fontSize": 18,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#64747A"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ozy1ofad",
+      "id": "3",
+      "name": "正方形/長方形 2",
+      "bbox": [
+        76,
+        183,
+        626,
+        44
+      ],
+      "geometry": "rect",
+      "text": "これまでの仕事",
+      "textPreview": "これまでの仕事",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "これまでの仕事"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "これまでの仕事",
+          "resolvedTextStyle": {
+            "fontSize": 29,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#B55236",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "これまでの仕事",
+              "fontSize": 29,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#B55236",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/b29kza94",
+      "id": "4",
+      "name": "正方形/長方形 3",
+      "bbox": [
+        76,
+        229,
+        626,
+        66
+      ],
+      "geometry": "rect",
+      "text": "システムの運用・保守、SE業務\n自治体の情報システム業務を経験",
+      "textPreview": "システムの運用・保守、SE業務 | 自治体の情報システム業務を経験",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "システムの運用・保守、SE業務"
+          },
+          {
+            "index": 2,
+            "text": "自治体の情報システム業務を経験"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "システムの運用・保守、SE業務",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#153447"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "システムの運用・保守、SE業務",
+              "fontSize": 25,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "自治体の情報システム業務を経験",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#153447"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "自治体の情報システム業務を経験",
+              "fontSize": 25,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a10jqpsj",
+      "id": "5",
+      "name": "正方形/長方形 4",
+      "bbox": [
+        76,
+        309,
+        626,
+        44
+      ],
+      "geometry": "rect",
+      "text": "現在の関心",
+      "textPreview": "現在の関心",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "現在の関心"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "現在の関心",
+          "resolvedTextStyle": {
+            "fontSize": 29,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#B55236",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "現在の関心",
+              "fontSize": 29,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#B55236",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x4r21kru",
+      "id": "6",
+      "name": "正方形/長方形 5",
+      "bbox": [
+        76,
+        355,
+        626,
+        66
+      ],
+      "geometry": "rect",
+      "text": "PythonやAIを使ったアプリ開発、バイブコーディング",
+      "textPreview": "PythonやAIを使ったアプリ開発、バイブコーディング",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "PythonやAIを使ったアプリ開発、バイブコーディング"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "PythonやAIを使ったアプリ開発、バイブコーディング",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#153447"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "PythonやAIを使ったアプリ開発",
+              "fontSize": 25,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447"
+            },
+            {
+              "index": 2,
+              "text": "、バイブコーディング",
+              "fontSize": 25,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w3i1sfa9",
+      "id": "7",
+      "name": "正方形/長方形 6",
+      "bbox": [
+        76,
+        435,
+        626,
+        44
+      ],
+      "geometry": "rect",
+      "text": "これからの目標",
+      "textPreview": "これからの目標",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "これからの目標"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "これからの目標",
+          "resolvedTextStyle": {
+            "fontSize": 29,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#B55236",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "これからの目標",
+              "fontSize": 29,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#B55236",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/r65knqtk",
+      "id": "8",
+      "name": "正方形/長方形 7",
+      "bbox": [
+        76,
+        481,
+        626,
+        114
+      ],
+      "geometry": "rect",
+      "text": "MONOラボを中心にAIを駆使して得意なプログラミングを使いながら業務改善、効率化を行い会社に貢献します。\n",
+      "textPreview": "MONOラボを中心にAIを駆使して得意なプログラミングを使いながら業務改善、効率化を行い会社に貢献します。 |",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 4,
+        "lines": [
+          {
+            "index": 1,
+            "text": "MONOラボを中心にAI"
+          },
+          {
+            "index": 2,
+            "text": "を駆使して得意なプログラミングを使いながら業務改善、効率"
+          },
+          {
+            "index": 3,
+            "text": "化を行い会社に貢献します。"
+          },
+          {
+            "index": 4,
+            "text": ""
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "MONOラボを中心にAIを駆使して得意なプログラミングを使いながら業務改善、効率化を行い会社に貢献します。",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#153447"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "MONO",
+              "fontSize": 25,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447"
+            },
+            {
+              "index": 2,
+              "text": "ラボを中心に",
+              "fontSize": 25,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447"
+            },
+            {
+              "index": 3,
+              "text": "AI",
+              "fontSize": 25,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447"
+            },
+            {
+              "index": 4,
+              "text": "を駆使して得意なプログラミングを使いながら業務改善、効率化を行い会社に貢献します。",
+              "fontSize": 25,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ove9o7yd",
+      "id": "10",
+      "name": "正方形/長方形 9",
+      "bbox": [
+        772,
+        346,
+        402,
+        100
+      ],
+      "geometry": "rect",
+      "text": "仕事や制作アプリの写真",
+      "textPreview": "仕事や制作アプリの写真",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "仕事や制作アプリの写真"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "仕事や制作アプリの写真",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#64747A"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "仕事や制作アプリの写真",
+              "fontSize": 25,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#64747A"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/mpcv2l0b",
+      "id": "19",
+      "name": "図 25",
+      "bbox": [
+        0,
+        688,
+        1280,
+        32
+      ],
+      "contentType": "image/png",
+      "imageCrop": {
+        "left": 0,
+        "top": 0.4625,
+        "right": 0,
+        "bottom": 0.4625
+      },
+      "asset": {
+        "assetId": "/ppt/media/image2.png",
+        "contentType": "image/png",
+        "byteLength": 3420878
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image2.png",
+        "contentType": "image/png",
+        "byteLength": 3420878
+      }
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nu58f2hs",
+      "id": "13",
+      "name": "Mediax header",
+      "bbox": [
+        1066,
+        18,
+        144,
+        38
+      ],
+      "geometry": "rect",
+      "text": "Mediax",
+      "textPreview": "Mediax",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Mediax"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Mediax",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#153447",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Mediax",
+              "fontSize": 24,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wjy9sry9",
+      "id": "14",
+      "name": "Title underline",
+      "bbox": [
+        76,
+        153,
+        1128,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#CBD4D5",
+      "lineWidth": 1.5
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xk7qlczu",
+      "id": "15",
+      "name": "Title underline accent",
+      "bbox": [
+        76,
+        153,
+        190,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#B55236",
+      "lineWidth": 4
+    },
+    {
+      "order": 14,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/q1cfel4j",
+      "id": "20",
+      "name": "図 15",
+      "bbox": [
+        712.16,
+        163.23,
+        338.19,
+        470.55
+      ],
+      "contentType": "image/png",
+      "asset": {
+        "assetId": "/ppt/media/image4.png",
+        "contentType": "image/png",
+        "byteLength": 97462
+      },
+      "fillImage": {
+        "assetId": "/ppt/media/image4.png",
+        "contentType": "image/png",
+        "byteLength": 97462
+      }
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cnupgny5",
+      "id": "18",
+      "name": "正方形/長方形 17",
+      "bbox": [
+        702,
+        624.77,
+        338.19,
+        39
+      ],
+      "geometry": "rect",
+      "text": "URL:https://g1-app.vercel.app/",
+      "textPreview": "URL:https://g1-app.vercel.app/",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "Aptos",
+        "color": "tx1",
+        "alignment": "left",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "URL:https://g1-app.vercel.app/"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "URL:https://g1-app.vercel.app/",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Noto Sans CJK JP",
+            "color": "#153447"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "URL:",
+              "fontSize": 25,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447"
+            },
+            {
+              "index": 2,
+              "text": "https://g1-app.vercel.app/",
+              "fontSize": 25,
+              "typeface": "Noto Sans CJK JP",
+              "color": "#153447"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

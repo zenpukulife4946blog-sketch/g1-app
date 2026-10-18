@@ -11,6 +11,7 @@ import { nihonDerby2026 } from "./data/nihonDerby2026";
 import { yasudaKinen2026 } from "./data/yasudaKinen2026";
 import { takarazukaKinen2026 } from "./data/takarazukaKinen2026";
 import { sprintersStakes2026 } from "./data/sprintersStakes2026";
+import { shukaSho2026 } from "./data/shukaSho2026";
 function App() {
   const raceCatalog = [
     { year: "2026", course: "阪神", key: "osaka", label: "大阪杯", data: osakaHai2026 },
@@ -23,6 +24,7 @@ function App() {
     { year: "2026", course: "東京", key: "yasuda", label: "安田記念", data: yasudaKinen2026 },
     { year: "2026", course: "阪神", key: "takarazuka", label: "宝塚記念", data: takarazukaKinen2026 },
     { year: "2026", course: "中山", key: "sprinters", label: "スプリンターズステークス", data: sprintersStakes2026 },
+    { year: "2026", course: "京都", key: "shuka", label: "秋華賞", data: shukaSho2026 },
     { year: "2025", course: "中山", key: "arima", label: "有馬記念", data: arimaKinen2025 },
   ];
 
